@@ -115,8 +115,6 @@ AIRFLOW__COMMON_AI__OTEL_EXPORT_ENABLED=True
 AIRFLOW__COMMON_AI__CAPTURE_CONTENT=True
 ```
 
-![The AI evals plugin, showing an answer scored across four dimensions](/source/analytics_evals_plugin.png)
-
 ## Schema
 
 | Schema | Contents |
@@ -137,3 +135,5 @@ container, which writes them to `traces/spans.jsonl`. The agent's GenAI spans ne
 under those task spans, which is how a model call is attributed back to the task instance that
 made it. `ingest_agent_traces` reads the file into `agent.trace_spans` in Postgres. The evals plugin 
 imports the trace data from Postgres.
+
+![The AI evals plugin, showing an answer scored across four dimensions](/source/analytics_evals_plugin.png)
