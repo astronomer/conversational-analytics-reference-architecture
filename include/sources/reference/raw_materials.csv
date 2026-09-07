@@ -1,0 +1,22 @@
+material_id,material_name,material_code,material_type,unit_of_measure,is_hazardous,source_asteroid_id,source_planet_id
+1,Iron Ore,FE-ORE,mineral,kg,false,1,
+2,Nickel,NI-RAW,mineral,kg,false,4,
+3,Platinum,PT-RAW,mineral,kg,false,4,
+4,Gold,AU-RAW,mineral,kg,false,4,
+5,Water Ice,H2O-ICE,mineral,kg,false,,10
+6,Titanium,TI-RAW,mineral,kg,false,2,
+7,Helium-3,HE3-GAS,gas,liters,false,,5
+8,Methane,CH4-GAS,gas,liters,true,,6
+9,Rare Earth Elements,REE-MIX,mineral,kg,false,3,
+10,Carbon Compounds,C-COMP,organic,kg,false,,
+11,Silicon,SI-RAW,mineral,kg,false,1,
+12,Copper,CU-RAW,mineral,kg,false,5,
+13,Aluminum,AL-RAW,mineral,kg,false,6,
+14,Lithium,LI-RAW,mineral,kg,true,10,
+15,Cobalt,CO-RAW,mineral,kg,true,4,
+16,Ammonia,NH3-LIQ,gas,liters,true,,8
+17,Sulfur,S-RAW,mineral,kg,true,,5
+18,Phosphorus,P-RAW,mineral,kg,true,7,
+19,Hydrogen,H2-GAS,gas,liters,true,,5
+20,Oxygen,O2-GAS,gas,liters,false,,10
+

@@ -1,0 +1,36 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: Raw source payloads, one-to-one with what each system returned. All columns are text; typing happens in silver.
+    schema: bronze
+    tables:
+      - name: appdb__customers
+      - name: appdb__order_items
+      - name: appdb__orders
+      - name: appdb__shipments
+      - name: reference__asteroids
+      - name: reference__campaigns
+      - name: reference__currency_exchange_rates
+      - name: reference__moons
+      - name: reference__pilots
+      - name: reference__planetary_hubs
+      - name: reference__planets
+      - name: reference__product_categories
+      - name: reference__product_prices
+      - name: reference__products
+      - name: reference__promotions
+      - name: reference__raw_materials
+      - name: reference__shipping_routes
+      - name: reference__space_stations
+      - name: reference__spacecraft
+      - name: reference__supplier_locations
+      - name: reference__suppliers
+      - name: salesforce__accounts
+      - name: salesforce__contacts
+      - name: salesforce__opportunities
+      - name: stripe__charges
+      - name: stripe__refunds
+      - name: stripe__subscriptions
+      - name: zendesk__ticket_comments
+      - name: zendesk__tickets

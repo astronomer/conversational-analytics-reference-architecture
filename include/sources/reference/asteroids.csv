@@ -1,0 +1,18 @@
+asteroid_id,asteroid_name,asteroid_belt,designation,diameter_km,is_mining_colony,has_station
+1,Vesta,main_belt,4 Vesta,525.40,true,true
+2,Pallas,main_belt,2 Pallas,512.00,true,true
+3,Hygiea,main_belt,10 Hygiea,433.00,true,true
+4,Psyche,main_belt,16 Psyche,226.00,true,true
+5,Eunomia,main_belt,15 Eunomia,268.00,true,true
+6,Juno,main_belt,3 Juno,233.92,true,true
+7,Davida,main_belt,511 Davida,289.00,false,true
+8,Interamnia,main_belt,704 Interamnia,306.00,false,true
+9,Europa,main_belt,52 Europa,302.50,false,true
+10,Eros,main_belt,433 Eros,16.84,true,true
+11,Bennu,main_belt,101955 Bennu,0.49,true,true
+12,Ryugu,main_belt,162173 Ryugu,0.90,true,true
+13,Makemake,kuiper,136472 Makemake,1430.00,false,true
+14,Haumea,kuiper,136108 Haumea,1560.00,false,true
+15,Eris,scattered_disc,136199 Eris,2326.00,false,true
+16,Sedna,scattered_disc,90377 Sedna,995.00,false,true
+

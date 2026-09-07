@@ -1,0 +1,16 @@
+supplier_id,supplier_name,supplier_code,contact_email,contact_name,payment_terms_days,reliability_rating,is_active,contracted_since
+1,SpaceX Interplanetary Parts,SXIP,parts@spacex.solar,Chen Rodriguez,30,4.85,true,2015-01-15
+2,Mars Industrial Corp,MARS-IND,supply@marsindustrial.mars,Olympia Chen,45,4.72,true,2017-06-22
+3,Belt Mining Collective,BELT-MIN,orders@beltminers.asteroid,Vesta Kowalski,30,4.65,true,2018-03-08
+4,Jovian Shipyards,JOV-SHIP,sales@jovianshipyards.jupiter,Io Patterson,60,4.58,true,2021-09-14
+5,Saturn Ring Industries,SAT-RING,procurement@saturnring.saturn,Titan Williams,45,4.68,true,2022-04-30
+6,Outer Reach Corp,OUT-REACH,supplies@outerreach.neptune,Neptune Okonkwo,90,4.42,true,2024-11-17
+7,Luna Hydroponics Ltd,LUN-HYDRO,grow@lunahydro.luna,Selene Green,30,4.78,true,2016-02-28
+8,Earth Prime Foods,EPF,orders@earthprimefoods.earth,Terra Johnson,15,4.92,true,2015-07-09
+9,Titan Organics,TIT-ORG,sales@titanorganics.titan,Methane Lakes,45,4.55,true,2023-10-21
+10,Europa Ice Works,EUR-ICE,cold@europaice.europa,Subsurface Smith,30,4.62,true,2022-05-03
+11,Ceres Water Systems,CER-H2O,hydro@cereswater.ceres,Dawn Martinez,30,4.75,true,2018-08-14
+12,Vesta Metal Refinery,VES-MET,metals@vestametal.vesta,Iron Volkov,45,4.68,true,2019-12-06
+13,Psyche Precious Metals,PSY-PM,gold@psychemetals.psyche,Platinum Lee,60,4.58,true,2020-03-19
+14,Ganymede Tech Solutions,GAN-TECH,tech@ganymedetech.ganymede,Circuit Patel,30,4.82,true,2022-09-25
+15,Enceladus Chemicals,ENC-CHEM,chem@enceladuschem.enceladus,Geyser Thompson,45,4.48,true,2024-01-11

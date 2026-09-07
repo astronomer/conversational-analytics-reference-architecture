@@ -1,0 +1,23 @@
+hub_id,hub_name,hub_type,planet_id,moon_id,asteroid_id,surface_coordinates,capacity_tonnes,is_operational,commissioned_date
+1,Starfleet Academy,fulfillment,3,,,37.7749° N 122.4194° W,100000,true,2015-01-01
+2,Singapore Spaceport,distribution,3,,,1.3521° N 103.8198° E,150000,true,2016-06-15
+3,New Berlin,distribution,3,,,52.5200° N 13.4050° E,120000,true,2016-03-22
+4,Happy Valley,fulfillment,4,,,18.65° N 226.2° E,80000,true,2018-09-14
+5,Mariner Valley Hub,distribution,4,,,18.38° N 77.58° E,45000,true,2019-11-28
+6,Hellas Depot,fulfillment,4,,,42.4° S 70.5° E,60000,true,2020-04-03
+7,Yukon Base,fulfillment,9,,,0° N 0° E,15000,true,2024-02-20
+8,Ceres Colony,distribution,10,,,0° N 0° E,35000,true,2018-07-19
+9,Jamestown,fulfillment,,1,,0.6875° N 23.4333° E,50000,true,2016-07-20
+10,Shackleton Station,distribution,,1,,89.9° S 0° E,40000,true,2017-12-01
+11,Europa Base One,fulfillment,,5,,0° N 180° E,30000,true,2022-05-14
+12,Ganymede Dome,distribution,,6,,10° N 45° E,45000,true,2022-08-22
+13,Callisto Outpost,fulfillment,,7,,15° S 30° W,25000,true,2023-11-09
+14,Kraken Mare Facility,fulfillment,,8,,10° N 290° E,55000,true,2023-03-17
+15,Enceladus Base,distribution,,9,,0° S 0° E,20000,true,2024-06-25
+16,Titania Settlement,fulfillment,,15,,5° N 15° E,18000,true,2024-01-30
+17,Triton Ice Works,distribution,,17,,20° S 60° E,22000,true,2024-04-12
+18,Charon Transfer Hub,returns,,18,,0° N 0° E,12000,true,2025-09-05
+19,Vesta Mining Colony,fulfillment,,,1,0° N 0° E,40000,true,2019-10-28
+20,Pallas Depot,distribution,,,2,0° N 0° E,35000,true,2020-02-14
+21,Psyche Metalworks,fulfillment,,,4,0° N 0° E,50000,true,2021-07-08
+22,Ceres Returns Center,returns,10,,,0° N 180° E,15000,true,2019-05-11

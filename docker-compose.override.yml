@@ -1,0 +1,34 @@
+services:
+  warehouse:
+    image: pgvector/pgvector:pg17
+    restart: unless-stopped
+    networks:
+      - airflow
+    ports:
+      - 127.0.0.1:5433:5432
+    environment:
+      POSTGRES_USER: warehouse
+      POSTGRES_PASSWORD: warehouse
+      POSTGRES_DB: warehouse
+    volumes:
+      - warehouse_data:/var/lib/postgresql/data
+
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:0.158.0
+    command: ["--config=/etc/otelcol-contrib/config.yaml"]
+    networks:
+      - airflow
+    volumes:
+      - ./include/otel/collector-config.yaml:/etc/otelcol-contrib/config.yaml:ro
+      - ./traces:/traces
+    ports:
+      - "4317:4317"
+      - "4318:4318"
+
+  scheduler:
+    volumes:
+      - ./traces:/traces
+
+volumes:
+  warehouse_data:
+    driver: local

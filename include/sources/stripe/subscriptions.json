@@ -1,0 +1,1922 @@
+[
+  {
+    "created": "2026-08-01T20:15:24+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5508.45",
+        "customer_id": "CUST-00064",
+        "interval": "year",
+        "plan_name": "life_support_service",
+        "started_at": "2026-08-01T20:15:24+00:00",
+        "status": "active",
+        "subscription_id": "sub_00001"
+      }
+    },
+    "id": "evt_sub_00001",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-13T23:21:58+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "8053.84",
+        "customer_id": "CUST-00354",
+        "interval": "year",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-06-13T23:21:58+00:00",
+        "status": "past_due",
+        "subscription_id": "sub_00002"
+      }
+    },
+    "id": "evt_sub_00002",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-13T08:27:11+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6474.83",
+        "customer_id": "CUST-00111",
+        "interval": "year",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-06-13T08:27:11+00:00",
+        "status": "active",
+        "subscription_id": "sub_00003"
+      }
+    },
+    "id": "evt_sub_00003",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-08-31T10:11:04+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7084.73",
+        "customer_id": "CUST-00160",
+        "interval": "month",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-08-31T10:11:04+00:00",
+        "status": "active",
+        "subscription_id": "sub_00004"
+      }
+    },
+    "id": "evt_sub_00004",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-17T10:34:50+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "299.34",
+        "customer_id": "CUST-00064",
+        "interval": "quarter",
+        "plan_name": "priority_freight",
+        "started_at": "2026-04-17T10:34:50+00:00",
+        "status": "active",
+        "subscription_id": "sub_00005"
+      }
+    },
+    "id": "evt_sub_00005",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-08T21:15:51+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4052.47",
+        "customer_id": "CUST-00030",
+        "interval": "quarter",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-07-08T21:15:51+00:00",
+        "status": "past_due",
+        "subscription_id": "sub_00006"
+      }
+    },
+    "id": "evt_sub_00006",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-13T00:47:31+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6405.27",
+        "customer_id": "CUST-00216",
+        "interval": "month",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-03-13T00:47:31+00:00",
+        "status": "active",
+        "subscription_id": "sub_00007"
+      }
+    },
+    "id": "evt_sub_00007",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-20T16:22:48+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2574.02",
+        "customer_id": "CUST-00242",
+        "interval": "year",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-06-20T16:22:48+00:00",
+        "status": "active",
+        "subscription_id": "sub_00008"
+      }
+    },
+    "id": "evt_sub_00008",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-26T18:14:15+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4885.25",
+        "customer_id": "CUST-00161",
+        "interval": "year",
+        "plan_name": "priority_freight",
+        "started_at": "2026-05-26T18:14:15+00:00",
+        "status": "active",
+        "subscription_id": "sub_00009"
+      }
+    },
+    "id": "evt_sub_00009",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-18T13:34:03+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "1303.85",
+        "customer_id": "CUST-00164",
+        "interval": "month",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-05-18T13:34:03+00:00",
+        "status": "active",
+        "subscription_id": "sub_00010"
+      }
+    },
+    "id": "evt_sub_00010",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-17T08:24:23+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "805.95",
+        "customer_id": "CUST-00227",
+        "interval": "year",
+        "plan_name": "life_support_service",
+        "started_at": "2026-06-17T08:24:23+00:00",
+        "status": "active",
+        "subscription_id": "sub_00011"
+      }
+    },
+    "id": "evt_sub_00011",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-04T22:56:39+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5176.79",
+        "customer_id": "CUST-00341",
+        "interval": "month",
+        "plan_name": "priority_freight",
+        "started_at": "2026-06-04T22:56:39+00:00",
+        "status": "active",
+        "subscription_id": "sub_00012"
+      }
+    },
+    "id": "evt_sub_00012",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-30T08:08:52+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2239.33",
+        "customer_id": "CUST-00323",
+        "interval": "year",
+        "plan_name": "life_support_service",
+        "started_at": "2026-06-30T08:08:52+00:00",
+        "status": "active",
+        "subscription_id": "sub_00013"
+      }
+    },
+    "id": "evt_sub_00013",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-18T22:15:18+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5803.81",
+        "customer_id": "CUST-00079",
+        "interval": "quarter",
+        "plan_name": "life_support_service",
+        "started_at": "2026-07-18T22:15:18+00:00",
+        "status": "active",
+        "subscription_id": "sub_00014"
+      }
+    },
+    "id": "evt_sub_00014",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-27T05:25:55+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4711.44",
+        "customer_id": "CUST-00237",
+        "interval": "quarter",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-05-27T05:25:55+00:00",
+        "status": "active",
+        "subscription_id": "sub_00015"
+      }
+    },
+    "id": "evt_sub_00015",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-17T12:41:38+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "1861.46",
+        "customer_id": "CUST-00306",
+        "interval": "quarter",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-03-17T12:41:38+00:00",
+        "status": "active",
+        "subscription_id": "sub_00016"
+      }
+    },
+    "id": "evt_sub_00016",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-29T07:08:30+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "3691.31",
+        "customer_id": "CUST-00312",
+        "interval": "month",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-04-29T07:08:30+00:00",
+        "status": "active",
+        "subscription_id": "sub_00017"
+      }
+    },
+    "id": "evt_sub_00017",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-08-07T16:17:33+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7124.85",
+        "customer_id": "CUST-00112",
+        "interval": "quarter",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-08-07T16:17:33+00:00",
+        "status": "active",
+        "subscription_id": "sub_00018"
+      }
+    },
+    "id": "evt_sub_00018",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-08T10:07:11+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4432.04",
+        "customer_id": "CUST-00400",
+        "interval": "year",
+        "plan_name": "priority_freight",
+        "started_at": "2026-04-08T10:07:11+00:00",
+        "status": "active",
+        "subscription_id": "sub_00019"
+      }
+    },
+    "id": "evt_sub_00019",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-23T05:19:27+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5805.13",
+        "customer_id": "CUST-00179",
+        "interval": "month",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-04-23T05:19:27+00:00",
+        "status": "active",
+        "subscription_id": "sub_00020"
+      }
+    },
+    "id": "evt_sub_00020",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-08-08T16:00:33+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "3288.19",
+        "customer_id": "CUST-00056",
+        "interval": "month",
+        "plan_name": "priority_freight",
+        "started_at": "2026-08-08T16:00:33+00:00",
+        "status": "active",
+        "subscription_id": "sub_00021"
+      }
+    },
+    "id": "evt_sub_00021",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-01T19:40:38+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5570.05",
+        "customer_id": "CUST-00201",
+        "interval": "year",
+        "plan_name": "life_support_service",
+        "started_at": "2026-03-01T19:40:38+00:00",
+        "status": "past_due",
+        "subscription_id": "sub_00022"
+      }
+    },
+    "id": "evt_sub_00022",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-15T22:31:35+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5274.75",
+        "customer_id": "CUST-00028",
+        "interval": "month",
+        "plan_name": "priority_freight",
+        "started_at": "2026-03-15T22:31:35+00:00",
+        "status": "active",
+        "subscription_id": "sub_00023"
+      }
+    },
+    "id": "evt_sub_00023",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-11T03:56:31+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "1791.67",
+        "customer_id": "CUST-00004",
+        "interval": "month",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-06-11T03:56:31+00:00",
+        "status": "past_due",
+        "subscription_id": "sub_00024"
+      }
+    },
+    "id": "evt_sub_00024",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-09T14:22:04+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2309.49",
+        "customer_id": "CUST-00069",
+        "interval": "year",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-03-09T14:22:04+00:00",
+        "status": "active",
+        "subscription_id": "sub_00025"
+      }
+    },
+    "id": "evt_sub_00025",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-24T18:26:45+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "305.52",
+        "customer_id": "CUST-00174",
+        "interval": "month",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-06-24T18:26:45+00:00",
+        "status": "active",
+        "subscription_id": "sub_00026"
+      }
+    },
+    "id": "evt_sub_00026",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-06T00:06:31+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6174.70",
+        "customer_id": "CUST-00084",
+        "interval": "year",
+        "plan_name": "life_support_service",
+        "started_at": "2026-05-06T00:06:31+00:00",
+        "status": "active",
+        "subscription_id": "sub_00027"
+      }
+    },
+    "id": "evt_sub_00027",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-08-24T20:58:20+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2039.53",
+        "customer_id": "CUST-00314",
+        "interval": "month",
+        "plan_name": "priority_freight",
+        "started_at": "2026-08-24T20:58:20+00:00",
+        "status": "active",
+        "subscription_id": "sub_00028"
+      }
+    },
+    "id": "evt_sub_00028",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-13T15:16:00+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7784.20",
+        "customer_id": "CUST-00325",
+        "interval": "quarter",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-06-13T15:16:00+00:00",
+        "status": "active",
+        "subscription_id": "sub_00029"
+      }
+    },
+    "id": "evt_sub_00029",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-02T14:35:06+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "816.57",
+        "customer_id": "CUST-00154",
+        "interval": "year",
+        "plan_name": "priority_freight",
+        "started_at": "2026-05-02T14:35:06+00:00",
+        "status": "active",
+        "subscription_id": "sub_00030"
+      }
+    },
+    "id": "evt_sub_00030",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-08-31T07:26:57+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7920.40",
+        "customer_id": "CUST-00240",
+        "interval": "quarter",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-08-31T07:26:57+00:00",
+        "status": "active",
+        "subscription_id": "sub_00031"
+      }
+    },
+    "id": "evt_sub_00031",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-07T01:23:51+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "8020.16",
+        "customer_id": "CUST-00119",
+        "interval": "month",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-05-07T01:23:51+00:00",
+        "status": "active",
+        "subscription_id": "sub_00032"
+      }
+    },
+    "id": "evt_sub_00032",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-17T07:36:23+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "1846.90",
+        "customer_id": "CUST-00237",
+        "interval": "year",
+        "plan_name": "life_support_service",
+        "started_at": "2026-04-17T07:36:23+00:00",
+        "status": "active",
+        "subscription_id": "sub_00033"
+      }
+    },
+    "id": "evt_sub_00033",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-28T07:52:07+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4478.91",
+        "customer_id": "CUST-00088",
+        "interval": "quarter",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-04-28T07:52:07+00:00",
+        "status": "canceled",
+        "subscription_id": "sub_00034"
+      }
+    },
+    "id": "evt_sub_00034",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-27T13:47:57+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6000.50",
+        "customer_id": "CUST-00307",
+        "interval": "quarter",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-07-27T13:47:57+00:00",
+        "status": "active",
+        "subscription_id": "sub_00035"
+      }
+    },
+    "id": "evt_sub_00035",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-13T09:52:08+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2132.31",
+        "customer_id": "CUST-00048",
+        "interval": "month",
+        "plan_name": "life_support_service",
+        "started_at": "2026-05-13T09:52:08+00:00",
+        "status": "active",
+        "subscription_id": "sub_00036"
+      }
+    },
+    "id": "evt_sub_00036",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-12T01:09:13+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2848.28",
+        "customer_id": "CUST-00162",
+        "interval": "quarter",
+        "plan_name": "life_support_service",
+        "started_at": "2026-06-12T01:09:13+00:00",
+        "status": "active",
+        "subscription_id": "sub_00037"
+      }
+    },
+    "id": "evt_sub_00037",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-13T15:36:08+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "953.30",
+        "customer_id": "CUST-00203",
+        "interval": "quarter",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-07-13T15:36:08+00:00",
+        "status": "active",
+        "subscription_id": "sub_00038"
+      }
+    },
+    "id": "evt_sub_00038",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-28T14:03:13+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6452.15",
+        "customer_id": "CUST-00037",
+        "interval": "year",
+        "plan_name": "priority_freight",
+        "started_at": "2026-04-28T14:03:13+00:00",
+        "status": "active",
+        "subscription_id": "sub_00039"
+      }
+    },
+    "id": "evt_sub_00039",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-26T17:46:58+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5117.70",
+        "customer_id": "CUST-00307",
+        "interval": "year",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-06-26T17:46:58+00:00",
+        "status": "active",
+        "subscription_id": "sub_00040"
+      }
+    },
+    "id": "evt_sub_00040",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-26T14:32:26+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5631.63",
+        "customer_id": "CUST-00149",
+        "interval": "month",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-03-26T14:32:26+00:00",
+        "status": "active",
+        "subscription_id": "sub_00041"
+      }
+    },
+    "id": "evt_sub_00041",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-20T19:14:36+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6696.44",
+        "customer_id": "CUST-00111",
+        "interval": "year",
+        "plan_name": "priority_freight",
+        "started_at": "2026-06-20T19:14:36+00:00",
+        "status": "active",
+        "subscription_id": "sub_00042"
+      }
+    },
+    "id": "evt_sub_00042",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-04T05:01:08+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2012.25",
+        "customer_id": "CUST-00169",
+        "interval": "quarter",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-07-04T05:01:08+00:00",
+        "status": "active",
+        "subscription_id": "sub_00043"
+      }
+    },
+    "id": "evt_sub_00043",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-17T17:58:06+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7513.00",
+        "customer_id": "CUST-00032",
+        "interval": "quarter",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-05-17T17:58:06+00:00",
+        "status": "canceled",
+        "subscription_id": "sub_00044"
+      }
+    },
+    "id": "evt_sub_00044",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-08-09T02:15:56+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2345.70",
+        "customer_id": "CUST-00271",
+        "interval": "month",
+        "plan_name": "life_support_service",
+        "started_at": "2026-08-09T02:15:56+00:00",
+        "status": "active",
+        "subscription_id": "sub_00045"
+      }
+    },
+    "id": "evt_sub_00045",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-08-23T21:18:36+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2093.67",
+        "customer_id": "CUST-00102",
+        "interval": "quarter",
+        "plan_name": "life_support_service",
+        "started_at": "2026-08-23T21:18:36+00:00",
+        "status": "active",
+        "subscription_id": "sub_00046"
+      }
+    },
+    "id": "evt_sub_00046",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-04T23:17:38+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4491.30",
+        "customer_id": "CUST-00355",
+        "interval": "month",
+        "plan_name": "life_support_service",
+        "started_at": "2026-04-04T23:17:38+00:00",
+        "status": "active",
+        "subscription_id": "sub_00047"
+      }
+    },
+    "id": "evt_sub_00047",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-26T14:25:11+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7571.75",
+        "customer_id": "CUST-00143",
+        "interval": "month",
+        "plan_name": "priority_freight",
+        "started_at": "2026-03-26T14:25:11+00:00",
+        "status": "past_due",
+        "subscription_id": "sub_00048"
+      }
+    },
+    "id": "evt_sub_00048",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-08-14T00:59:50+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "3823.60",
+        "customer_id": "CUST-00128",
+        "interval": "month",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-08-14T00:59:50+00:00",
+        "status": "active",
+        "subscription_id": "sub_00049"
+      }
+    },
+    "id": "evt_sub_00049",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-28T19:44:29+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "1338.67",
+        "customer_id": "CUST-00014",
+        "interval": "month",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-04-28T19:44:29+00:00",
+        "status": "active",
+        "subscription_id": "sub_00050"
+      }
+    },
+    "id": "evt_sub_00050",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-06T13:39:02+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2352.68",
+        "customer_id": "CUST-00285",
+        "interval": "year",
+        "plan_name": "priority_freight",
+        "started_at": "2026-03-06T13:39:02+00:00",
+        "status": "active",
+        "subscription_id": "sub_00051"
+      }
+    },
+    "id": "evt_sub_00051",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-17T20:32:09+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5554.95",
+        "customer_id": "CUST-00056",
+        "interval": "year",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-05-17T20:32:09+00:00",
+        "status": "active",
+        "subscription_id": "sub_00052"
+      }
+    },
+    "id": "evt_sub_00052",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-01T12:09:52+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "8400.72",
+        "customer_id": "CUST-00087",
+        "interval": "month",
+        "plan_name": "priority_freight",
+        "started_at": "2026-03-01T12:09:52+00:00",
+        "status": "active",
+        "subscription_id": "sub_00053"
+      }
+    },
+    "id": "evt_sub_00053",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-06T02:42:57+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7064.27",
+        "customer_id": "CUST-00385",
+        "interval": "year",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-03-06T02:42:57+00:00",
+        "status": "active",
+        "subscription_id": "sub_00054"
+      }
+    },
+    "id": "evt_sub_00054",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-21T10:52:01+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "8498.59",
+        "customer_id": "CUST-00343",
+        "interval": "year",
+        "plan_name": "priority_freight",
+        "started_at": "2026-03-21T10:52:01+00:00",
+        "status": "active",
+        "subscription_id": "sub_00055"
+      }
+    },
+    "id": "evt_sub_00055",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-07T16:52:05+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5897.63",
+        "customer_id": "CUST-00170",
+        "interval": "quarter",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-06-07T16:52:05+00:00",
+        "status": "active",
+        "subscription_id": "sub_00056"
+      }
+    },
+    "id": "evt_sub_00056",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-27T05:38:14+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2480.89",
+        "customer_id": "CUST-00174",
+        "interval": "month",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-04-27T05:38:14+00:00",
+        "status": "active",
+        "subscription_id": "sub_00057"
+      }
+    },
+    "id": "evt_sub_00057",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-11T20:09:49+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2028.88",
+        "customer_id": "CUST-00377",
+        "interval": "year",
+        "plan_name": "life_support_service",
+        "started_at": "2026-07-11T20:09:49+00:00",
+        "status": "active",
+        "subscription_id": "sub_00058"
+      }
+    },
+    "id": "evt_sub_00058",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-02T08:57:45+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7468.40",
+        "customer_id": "CUST-00206",
+        "interval": "month",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-05-02T08:57:45+00:00",
+        "status": "active",
+        "subscription_id": "sub_00059"
+      }
+    },
+    "id": "evt_sub_00059",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-12T23:17:53+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "1116.57",
+        "customer_id": "CUST-00220",
+        "interval": "year",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-04-12T23:17:53+00:00",
+        "status": "active",
+        "subscription_id": "sub_00060"
+      }
+    },
+    "id": "evt_sub_00060",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-25T03:26:20+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4105.72",
+        "customer_id": "CUST-00120",
+        "interval": "quarter",
+        "plan_name": "life_support_service",
+        "started_at": "2026-07-25T03:26:20+00:00",
+        "status": "past_due",
+        "subscription_id": "sub_00061"
+      }
+    },
+    "id": "evt_sub_00061",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-02T17:30:44+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6143.45",
+        "customer_id": "CUST-00102",
+        "interval": "month",
+        "plan_name": "life_support_service",
+        "started_at": "2026-03-02T17:30:44+00:00",
+        "status": "active",
+        "subscription_id": "sub_00062"
+      }
+    },
+    "id": "evt_sub_00062",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-13T01:00:56+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6048.23",
+        "customer_id": "CUST-00147",
+        "interval": "quarter",
+        "plan_name": "life_support_service",
+        "started_at": "2026-07-13T01:00:56+00:00",
+        "status": "active",
+        "subscription_id": "sub_00063"
+      }
+    },
+    "id": "evt_sub_00063",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-13T00:27:45+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "8138.47",
+        "customer_id": "CUST-00339",
+        "interval": "year",
+        "plan_name": "priority_freight",
+        "started_at": "2026-05-13T00:27:45+00:00",
+        "status": "canceled",
+        "subscription_id": "sub_00064"
+      }
+    },
+    "id": "evt_sub_00064",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-06T21:59:29+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "3419.23",
+        "customer_id": "CUST-00344",
+        "interval": "month",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-06-06T21:59:29+00:00",
+        "status": "active",
+        "subscription_id": "sub_00065"
+      }
+    },
+    "id": "evt_sub_00065",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-06T22:20:48+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "1581.97",
+        "customer_id": "CUST-00248",
+        "interval": "month",
+        "plan_name": "life_support_service",
+        "started_at": "2026-07-06T22:20:48+00:00",
+        "status": "canceled",
+        "subscription_id": "sub_00066"
+      }
+    },
+    "id": "evt_sub_00066",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-08-10T12:20:47+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4031.59",
+        "customer_id": "CUST-00105",
+        "interval": "quarter",
+        "plan_name": "priority_freight",
+        "started_at": "2026-08-10T12:20:47+00:00",
+        "status": "active",
+        "subscription_id": "sub_00067"
+      }
+    },
+    "id": "evt_sub_00067",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-20T00:01:04+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5628.82",
+        "customer_id": "CUST-00301",
+        "interval": "month",
+        "plan_name": "priority_freight",
+        "started_at": "2026-04-20T00:01:04+00:00",
+        "status": "canceled",
+        "subscription_id": "sub_00068"
+      }
+    },
+    "id": "evt_sub_00068",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-05T00:15:03+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "1415.58",
+        "customer_id": "CUST-00094",
+        "interval": "year",
+        "plan_name": "life_support_service",
+        "started_at": "2026-05-05T00:15:03+00:00",
+        "status": "active",
+        "subscription_id": "sub_00069"
+      }
+    },
+    "id": "evt_sub_00069",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-21T12:17:19+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "3576.53",
+        "customer_id": "CUST-00159",
+        "interval": "month",
+        "plan_name": "priority_freight",
+        "started_at": "2026-04-21T12:17:19+00:00",
+        "status": "active",
+        "subscription_id": "sub_00070"
+      }
+    },
+    "id": "evt_sub_00070",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-12T12:27:36+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5034.62",
+        "customer_id": "CUST-00333",
+        "interval": "year",
+        "plan_name": "priority_freight",
+        "started_at": "2026-03-12T12:27:36+00:00",
+        "status": "active",
+        "subscription_id": "sub_00071"
+      }
+    },
+    "id": "evt_sub_00071",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-09T00:59:25+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7577.17",
+        "customer_id": "CUST-00314",
+        "interval": "quarter",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-05-09T00:59:25+00:00",
+        "status": "active",
+        "subscription_id": "sub_00072"
+      }
+    },
+    "id": "evt_sub_00072",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-18T10:29:06+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6035.09",
+        "customer_id": "CUST-00189",
+        "interval": "month",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-03-18T10:29:06+00:00",
+        "status": "active",
+        "subscription_id": "sub_00073"
+      }
+    },
+    "id": "evt_sub_00073",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-04T04:33:32+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "8471.69",
+        "customer_id": "CUST-00026",
+        "interval": "quarter",
+        "plan_name": "life_support_service",
+        "started_at": "2026-03-04T04:33:32+00:00",
+        "status": "active",
+        "subscription_id": "sub_00074"
+      }
+    },
+    "id": "evt_sub_00074",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-02T17:17:51+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "3118.82",
+        "customer_id": "CUST-00337",
+        "interval": "month",
+        "plan_name": "priority_freight",
+        "started_at": "2026-04-02T17:17:51+00:00",
+        "status": "active",
+        "subscription_id": "sub_00075"
+      }
+    },
+    "id": "evt_sub_00075",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-13T19:43:32+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7872.63",
+        "customer_id": "CUST-00331",
+        "interval": "month",
+        "plan_name": "life_support_service",
+        "started_at": "2026-04-13T19:43:32+00:00",
+        "status": "active",
+        "subscription_id": "sub_00076"
+      }
+    },
+    "id": "evt_sub_00076",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-27T21:17:17+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "8924.43",
+        "customer_id": "CUST-00250",
+        "interval": "month",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-07-27T21:17:17+00:00",
+        "status": "active",
+        "subscription_id": "sub_00077"
+      }
+    },
+    "id": "evt_sub_00077",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-19T16:57:36+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4371.89",
+        "customer_id": "CUST-00169",
+        "interval": "month",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-06-19T16:57:36+00:00",
+        "status": "active",
+        "subscription_id": "sub_00078"
+      }
+    },
+    "id": "evt_sub_00078",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-19T08:57:58+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2873.87",
+        "customer_id": "CUST-00371",
+        "interval": "month",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-06-19T08:57:58+00:00",
+        "status": "canceled",
+        "subscription_id": "sub_00079"
+      }
+    },
+    "id": "evt_sub_00079",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-30T12:37:26+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6316.72",
+        "customer_id": "CUST-00079",
+        "interval": "quarter",
+        "plan_name": "life_support_service",
+        "started_at": "2026-03-30T12:37:26+00:00",
+        "status": "active",
+        "subscription_id": "sub_00080"
+      }
+    },
+    "id": "evt_sub_00080",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-25T18:14:53+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4600.16",
+        "customer_id": "CUST-00299",
+        "interval": "quarter",
+        "plan_name": "priority_freight",
+        "started_at": "2026-06-25T18:14:53+00:00",
+        "status": "active",
+        "subscription_id": "sub_00081"
+      }
+    },
+    "id": "evt_sub_00081",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-01T15:08:08+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6577.89",
+        "customer_id": "CUST-00097",
+        "interval": "quarter",
+        "plan_name": "life_support_service",
+        "started_at": "2026-06-01T15:08:08+00:00",
+        "status": "active",
+        "subscription_id": "sub_00082"
+      }
+    },
+    "id": "evt_sub_00082",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-12T01:23:44+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5423.56",
+        "customer_id": "CUST-00345",
+        "interval": "year",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-06-12T01:23:44+00:00",
+        "status": "active",
+        "subscription_id": "sub_00083"
+      }
+    },
+    "id": "evt_sub_00083",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-21T16:07:01+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "880.55",
+        "customer_id": "CUST-00235",
+        "interval": "quarter",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-05-21T16:07:01+00:00",
+        "status": "active",
+        "subscription_id": "sub_00084"
+      }
+    },
+    "id": "evt_sub_00084",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-01T02:11:16+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4514.08",
+        "customer_id": "CUST-00236",
+        "interval": "quarter",
+        "plan_name": "priority_freight",
+        "started_at": "2026-06-01T02:11:16+00:00",
+        "status": "active",
+        "subscription_id": "sub_00085"
+      }
+    },
+    "id": "evt_sub_00085",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-17T08:32:52+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6395.10",
+        "customer_id": "CUST-00357",
+        "interval": "month",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-07-17T08:32:52+00:00",
+        "status": "active",
+        "subscription_id": "sub_00086"
+      }
+    },
+    "id": "evt_sub_00086",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-27T05:54:33+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7694.52",
+        "customer_id": "CUST-00350",
+        "interval": "month",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-04-27T05:54:33+00:00",
+        "status": "active",
+        "subscription_id": "sub_00087"
+      }
+    },
+    "id": "evt_sub_00087",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-26T12:45:04+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4834.43",
+        "customer_id": "CUST-00268",
+        "interval": "month",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-07-26T12:45:04+00:00",
+        "status": "active",
+        "subscription_id": "sub_00088"
+      }
+    },
+    "id": "evt_sub_00088",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-04T11:42:03+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7123.74",
+        "customer_id": "CUST-00340",
+        "interval": "year",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-04-04T11:42:03+00:00",
+        "status": "active",
+        "subscription_id": "sub_00089"
+      }
+    },
+    "id": "evt_sub_00089",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-28T05:11:09+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2333.88",
+        "customer_id": "CUST-00232",
+        "interval": "month",
+        "plan_name": "life_support_service",
+        "started_at": "2026-04-28T05:11:09+00:00",
+        "status": "active",
+        "subscription_id": "sub_00090"
+      }
+    },
+    "id": "evt_sub_00090",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-24T14:57:22+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "1466.45",
+        "customer_id": "CUST-00019",
+        "interval": "year",
+        "plan_name": "priority_freight",
+        "started_at": "2026-03-24T14:57:22+00:00",
+        "status": "canceled",
+        "subscription_id": "sub_00091"
+      }
+    },
+    "id": "evt_sub_00091",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-14T16:49:13+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "731.17",
+        "customer_id": "CUST-00364",
+        "interval": "year",
+        "plan_name": "life_support_service",
+        "started_at": "2026-07-14T16:49:13+00:00",
+        "status": "active",
+        "subscription_id": "sub_00092"
+      }
+    },
+    "id": "evt_sub_00092",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-21T04:17:09+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2935.66",
+        "customer_id": "CUST-00324",
+        "interval": "month",
+        "plan_name": "life_support_service",
+        "started_at": "2026-03-21T04:17:09+00:00",
+        "status": "active",
+        "subscription_id": "sub_00093"
+      }
+    },
+    "id": "evt_sub_00093",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-10T23:26:05+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6976.03",
+        "customer_id": "CUST-00332",
+        "interval": "quarter",
+        "plan_name": "priority_freight",
+        "started_at": "2026-03-10T23:26:05+00:00",
+        "status": "active",
+        "subscription_id": "sub_00094"
+      }
+    },
+    "id": "evt_sub_00094",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-06T14:32:22+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "1932.66",
+        "customer_id": "CUST-00248",
+        "interval": "month",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-04-06T14:32:22+00:00",
+        "status": "active",
+        "subscription_id": "sub_00095"
+      }
+    },
+    "id": "evt_sub_00095",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-23T21:47:37+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5106.79",
+        "customer_id": "CUST-00367",
+        "interval": "quarter",
+        "plan_name": "priority_freight",
+        "started_at": "2026-04-23T21:47:37+00:00",
+        "status": "active",
+        "subscription_id": "sub_00096"
+      }
+    },
+    "id": "evt_sub_00096",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-08T12:30:14+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5875.01",
+        "customer_id": "CUST-00041",
+        "interval": "year",
+        "plan_name": "life_support_service",
+        "started_at": "2026-05-08T12:30:14+00:00",
+        "status": "active",
+        "subscription_id": "sub_00097"
+      }
+    },
+    "id": "evt_sub_00097",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-09T03:15:47+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "549.24",
+        "customer_id": "CUST-00319",
+        "interval": "year",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-04-09T03:15:47+00:00",
+        "status": "active",
+        "subscription_id": "sub_00098"
+      }
+    },
+    "id": "evt_sub_00098",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-03T08:00:58+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "8781.31",
+        "customer_id": "CUST-00081",
+        "interval": "quarter",
+        "plan_name": "life_support_service",
+        "started_at": "2026-07-03T08:00:58+00:00",
+        "status": "active",
+        "subscription_id": "sub_00099"
+      }
+    },
+    "id": "evt_sub_00099",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-01T08:15:16+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4936.01",
+        "customer_id": "CUST-00328",
+        "interval": "month",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-07-01T08:15:16+00:00",
+        "status": "canceled",
+        "subscription_id": "sub_00100"
+      }
+    },
+    "id": "evt_sub_00100",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-01T20:28:41+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7530.17",
+        "customer_id": "CUST-00386",
+        "interval": "quarter",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-06-01T20:28:41+00:00",
+        "status": "canceled",
+        "subscription_id": "sub_00101"
+      }
+    },
+    "id": "evt_sub_00101",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-16T04:06:32+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "8521.16",
+        "customer_id": "CUST-00192",
+        "interval": "quarter",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-03-16T04:06:32+00:00",
+        "status": "active",
+        "subscription_id": "sub_00102"
+      }
+    },
+    "id": "evt_sub_00102",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-23T18:19:07+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "943.10",
+        "customer_id": "CUST-00072",
+        "interval": "quarter",
+        "plan_name": "priority_freight",
+        "started_at": "2026-03-23T18:19:07+00:00",
+        "status": "active",
+        "subscription_id": "sub_00103"
+      }
+    },
+    "id": "evt_sub_00103",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-09T13:05:35+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5028.19",
+        "customer_id": "CUST-00126",
+        "interval": "quarter",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-07-09T13:05:35+00:00",
+        "status": "past_due",
+        "subscription_id": "sub_00104"
+      }
+    },
+    "id": "evt_sub_00104",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-27T01:12:09+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2152.96",
+        "customer_id": "CUST-00323",
+        "interval": "quarter",
+        "plan_name": "priority_freight",
+        "started_at": "2026-04-27T01:12:09+00:00",
+        "status": "active",
+        "subscription_id": "sub_00105"
+      }
+    },
+    "id": "evt_sub_00105",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-01T06:38:28+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "297.30",
+        "customer_id": "CUST-00310",
+        "interval": "year",
+        "plan_name": "life_support_service",
+        "started_at": "2026-06-01T06:38:28+00:00",
+        "status": "active",
+        "subscription_id": "sub_00106"
+      }
+    },
+    "id": "evt_sub_00106",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-14T00:00:40+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6435.55",
+        "customer_id": "CUST-00167",
+        "interval": "quarter",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-06-14T00:00:40+00:00",
+        "status": "past_due",
+        "subscription_id": "sub_00107"
+      }
+    },
+    "id": "evt_sub_00107",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-08-03T05:54:09+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5197.11",
+        "customer_id": "CUST-00002",
+        "interval": "month",
+        "plan_name": "priority_freight",
+        "started_at": "2026-08-03T05:54:09+00:00",
+        "status": "active",
+        "subscription_id": "sub_00108"
+      }
+    },
+    "id": "evt_sub_00108",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-27T01:28:51+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "575.73",
+        "customer_id": "CUST-00213",
+        "interval": "year",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-06-27T01:28:51+00:00",
+        "status": "active",
+        "subscription_id": "sub_00109"
+      }
+    },
+    "id": "evt_sub_00109",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-03-22T22:14:40+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2170.82",
+        "customer_id": "CUST-00052",
+        "interval": "month",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-03-22T22:14:40+00:00",
+        "status": "active",
+        "subscription_id": "sub_00110"
+      }
+    },
+    "id": "evt_sub_00110",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-04-10T07:22:45+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2169.30",
+        "customer_id": "CUST-00342",
+        "interval": "year",
+        "plan_name": "priority_freight",
+        "started_at": "2026-04-10T07:22:45+00:00",
+        "status": "active",
+        "subscription_id": "sub_00111"
+      }
+    },
+    "id": "evt_sub_00111",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-21T06:52:27+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "3712.18",
+        "customer_id": "CUST-00133",
+        "interval": "month",
+        "plan_name": "priority_freight",
+        "started_at": "2026-05-21T06:52:27+00:00",
+        "status": "active",
+        "subscription_id": "sub_00112"
+      }
+    },
+    "id": "evt_sub_00112",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-19T03:54:11+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7667.96",
+        "customer_id": "CUST-00361",
+        "interval": "month",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-05-19T03:54:11+00:00",
+        "status": "canceled",
+        "subscription_id": "sub_00113"
+      }
+    },
+    "id": "evt_sub_00113",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-05-04T10:37:58+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "8293.29",
+        "customer_id": "CUST-00085",
+        "interval": "month",
+        "plan_name": "parts_replenishment",
+        "started_at": "2026-05-04T10:37:58+00:00",
+        "status": "canceled",
+        "subscription_id": "sub_00114"
+      }
+    },
+    "id": "evt_sub_00114",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-08-06T20:31:09+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6273.00",
+        "customer_id": "CUST-00117",
+        "interval": "year",
+        "plan_name": "priority_freight",
+        "started_at": "2026-08-06T20:31:09+00:00",
+        "status": "active",
+        "subscription_id": "sub_00115"
+      }
+    },
+    "id": "evt_sub_00115",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-07-25T13:46:47+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5456.11",
+        "customer_id": "CUST-00112",
+        "interval": "year",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-07-25T13:46:47+00:00",
+        "status": "active",
+        "subscription_id": "sub_00116"
+      }
+    },
+    "id": "evt_sub_00116",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-26T18:12:37+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "235.86",
+        "customer_id": "CUST-00028",
+        "interval": "month",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-06-26T18:12:37+00:00",
+        "status": "active",
+        "subscription_id": "sub_00117"
+      }
+    },
+    "id": "evt_sub_00117",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-26T02:40:55+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "8441.98",
+        "customer_id": "CUST-00016",
+        "interval": "year",
+        "plan_name": "consumables_monthly",
+        "started_at": "2026-06-26T02:40:55+00:00",
+        "status": "active",
+        "subscription_id": "sub_00118"
+      }
+    },
+    "id": "evt_sub_00118",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-06-03T06:44:55+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5260.13",
+        "customer_id": "CUST-00212",
+        "interval": "year",
+        "plan_name": "priority_freight",
+        "started_at": "2026-06-03T06:44:55+00:00",
+        "status": "active",
+        "subscription_id": "sub_00119"
+      }
+    },
+    "id": "evt_sub_00119",
+    "type": "customer.subscription.created"
+  },
+  {
+    "created": "2026-08-17T02:49:23+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5703.26",
+        "customer_id": "CUST-00375",
+        "interval": "month",
+        "plan_name": "life_support_service",
+        "started_at": "2026-08-17T02:49:23+00:00",
+        "status": "active",
+        "subscription_id": "sub_00120"
+      }
+    },
+    "id": "evt_sub_00120",
+    "type": "customer.subscription.created"
+  }
+]

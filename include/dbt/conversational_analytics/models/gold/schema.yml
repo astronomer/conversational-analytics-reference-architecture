@@ -1,0 +1,529 @@
+version: 2
+
+models:
+  - name: dim_date
+    description: One row per day in the frozen data window, 2026-03-01 to 2026-08-31. Join to is_window_end for any recency calculation; gold never reads the wall clock.
+    columns:
+      - name: date_day
+        description: The calendar date.
+        data_tests: [unique, not_null]
+      - name: calendar_year
+        description: Four-digit year.
+      - name: calendar_month
+        description: Month number, 1 to 12.
+      - name: calendar_day
+        description: Day of month.
+      - name: iso_day_of_week
+        description: ISO weekday, 1 is Monday and 7 is Sunday.
+      - name: year_month
+        description: Year and month as YYYY-MM, for grouping by month.
+      - name: day_name
+        description: Weekday name.
+      - name: is_weekend
+        description: True on Saturday and Sunday.
+      - name: is_window_end
+        description: True only on 2026-08-31, the last day of the dataset. Use this as "today" instead of current_date.
+      - name: days_before_window_end
+        description: Days between this date and the end of the data window. Use for "last N days" filters.
+
+  - name: dim_location
+    description: Every place in the business as one dimension - fulfilment hubs, space stations, planets, moons, and asteroids - so geography can be reasoned about without joining five tables.
+    columns:
+      - name: location_key
+        description: Surrogate key, the location type and source id joined by a hyphen, for example hub-4 or station-13.
+        data_tests: [unique, not_null]
+      - name: location_type
+        description: One of hub, station, planet, moon, asteroid.
+        data_tests:
+          - accepted_values:
+              values: [hub, station, planet, moon, asteroid]
+      - name: source_id
+        description: The identifier this location had in its own source table.
+      - name: location_name
+        description: Human-readable name, for example Starfleet Academy.
+      - name: location_subtype
+        description: Type within the location kind, such as fulfilment or distribution for a hub.
+      - name: planet_id
+        description: Planet this location belongs to or orbits.
+      - name: planet_name
+        description: Name of that planet.
+      - name: planet_is_habitable
+        description: Whether that planet is habitable.
+      - name: capacity_tonnes
+        description: Throughput capacity, null for places that are not facilities.
+      - name: is_operational
+        description: Whether the facility is currently operational.
+
+  - name: dim_customer
+    description: One row per customer, combining the application database record with the CRM account view.
+    columns:
+      - name: customer_id
+        description: Customer primary key.
+        data_tests: [unique, not_null]
+      - name: company_name
+        description: Trading name of the customer organisation.
+      - name: contact_name
+        description: Primary contact at the customer.
+      - name: email
+        description: Primary contact email.
+      - name: customer_tier
+        description: Commercial tier - bronze, silver, gold, or platinum.
+      - name: is_active
+        description: Whether the account is currently active.
+      - name: signup_date
+        description: Date the customer first signed up.
+      - name: account_id
+        description: Matching CRM account id, null when there is no CRM record.
+      - name: industry
+        description: Industry from the CRM account.
+      - name: annual_revenue_credits
+        description: Self-reported annual revenue from the CRM, in credits. Not our revenue from them.
+      - name: home_planet_id
+        description: Planet the customer is based on.
+      - name: home_planet_name
+        description: Name of that planet.
+      - name: home_planet_is_habitable
+        description: Whether that planet is habitable.
+
+  - name: dim_product
+    description: Product catalogue with its category hierarchy resolved.
+    columns:
+      - name: product_sku
+        description: Product stock keeping unit, the natural key used everywhere else.
+        data_tests: [unique, not_null]
+      - name: product_id
+        description: Numeric product id from the source catalogue.
+      - name: product_name
+        description: Product name.
+      - name: description
+        description: Catalogue description of the product.
+      - name: category_id
+        description: Immediate category id.
+      - name: category_name
+        description: Immediate category name, for example Oxygen Systems.
+      - name: parent_category_name
+        description: Parent category name, for example Life Support.
+      - name: weight_kg
+        description: Shipping weight in kilograms.
+      - name: dimensions_cm
+        description: Packed dimensions as a text string.
+      - name: is_hazardous
+        description: Whether the product is classed as hazardous.
+      - name: requires_cold_chain
+        description: Whether the product needs temperature-controlled transport.
+      - name: base_price_credits
+        description: List price in credits before any order-level variance.
+      - name: is_active
+        description: Whether the product is currently sold.
+
+  - name: fct_orders
+    description: One row per order, with its payment, refund, and shipment outcome attached. The main order-grain fact.
+    columns:
+      - name: order_id
+        description: Order primary key.
+        data_tests: [unique, not_null]
+      - name: customer_id
+        description: Customer who placed the order.
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customer')
+              field: customer_id
+      - name: order_status
+        description: Lifecycle status - placed, picked, dispatched, delivered, or cancelled.
+      - name: ordered_at
+        description: Timestamp the order was placed.
+        data_tests: [not_null]
+      - name: ordered_date
+        description: Date the order was placed. Join to dim_date.date_day.
+        data_tests:
+          - relationships:
+              to: ref('dim_date')
+              field: date_day
+      - name: route_id
+        description: Shipping route selected for the order.
+      - name: route_name
+        description: Name of that route.
+      - name: destination_location_key
+        description: Destination as a dim_location key.
+      - name: destination_name
+        description: Destination name.
+      - name: revenue_credits
+        description: Order value in credits, before refunds.
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+      - name: line_count
+        description: Number of distinct product lines on the order.
+      - name: unit_count
+        description: Total units across all lines.
+      - name: charge_id
+        description: Payment charge for the order, null if never charged.
+      - name: payment_status
+        description: Payment outcome - succeeded, pending, or failed.
+      - name: payment_method
+        description: How the order was paid - card, invoice, or transfer.
+      - name: refunded_credits
+        description: Total refunded against this order, zero when none.
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+      - name: refund_count
+        description: Number of refunds issued against this order.
+      - name: was_refunded
+        description: True when any refund was issued.
+      - name: shipment_id
+        description: Shipment for the order, null when not yet dispatched.
+      - name: shipped_at
+        description: Timestamp the shipment left the origin.
+      - name: delivered_at
+        description: Timestamp of delivery, null while in transit.
+      - name: delivery_days
+        description: Days from dispatch to delivery, null while in transit.
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+              config:
+                where: "delivery_days is not null"
+      - name: shipment_status
+        description: Shipment status - in_transit or delivered.
+      - name: delivered_on_time
+        description: True when delivery_days was within the route's estimated transit days. Null while in transit.
+
+  - name: fct_order_items
+    description: One row per order line, at product grain, for questions about what was actually bought.
+    columns:
+      - name: order_item_id
+        description: Order line primary key.
+        data_tests: [unique, not_null]
+      - name: order_id
+        description: Order this line belongs to.
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('fct_orders')
+              field: order_id
+      - name: product_sku
+        description: Product on this line.
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_product')
+              field: product_sku
+      - name: customer_id
+        description: Customer who placed the order.
+      - name: ordered_at
+        description: Timestamp the order was placed.
+      - name: ordered_date
+        description: Date the order was placed.
+      - name: quantity
+        description: Units of this product on the line.
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "> 0"
+      - name: unit_price_credits
+        description: Price actually charged per unit, in credits.
+      - name: line_revenue_credits
+        description: quantity multiplied by unit_price_credits.
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+      - name: product_name
+        description: Name of the product on this line.
+      - name: category_id
+        description: Category of the product on this line.
+      - name: base_price_credits
+        description: Catalogue list price of the product.
+      - name: unit_price_variance_credits
+        description: Charged unit price minus list price. Negative means discounted.
+
+  - name: fct_payments
+    description: One row per charge, with refunds netted off. The revenue-recognition fact.
+    columns:
+      - name: charge_id
+        description: Charge primary key from the payment processor.
+        data_tests: [unique, not_null]
+      - name: order_id
+        description: Order this charge relates to.
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('fct_orders')
+              field: order_id
+      - name: customer_id
+        description: Customer charged.
+      - name: event_id
+        description: Processor event id the charge arrived on.
+      - name: event_type
+        description: Processor event type, for example charge.succeeded.
+      - name: amount_credits
+        description: Gross charge amount in credits.
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+      - name: currency
+        description: Currency of the charge.
+      - name: payment_status
+        description: succeeded, pending, or failed.
+      - name: payment_method
+        description: card, invoice, or transfer.
+      - name: charged_at
+        description: Timestamp of the charge.
+      - name: charged_date
+        description: Date of the charge.
+      - name: refunded_credits
+        description: Total refunded against this charge, zero when none.
+      - name: was_refunded
+        description: True when any refund was issued against this charge.
+      - name: net_credits
+        description: amount_credits minus refunded_credits. Use this for net revenue.
+
+  - name: fct_shipments
+    description: One row per shipment, with route estimate versus actual. The fulfilment-performance fact.
+    columns:
+      - name: shipment_id
+        description: Shipment primary key.
+        data_tests: [unique, not_null]
+      - name: order_id
+        description: Order being shipped.
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('fct_orders')
+              field: order_id
+      - name: customer_id
+        description: Customer receiving the shipment.
+      - name: route_id
+        description: Route used.
+      - name: route_name
+        description: Name of that route.
+      - name: origin_hub_id
+        description: Origin hub of the route.
+      - name: destination_hub_id
+        description: Destination hub of the route.
+      - name: distance_million_km
+        description: Route distance in millions of kilometres.
+      - name: avg_transit_days
+        description: The route's estimated transit time in days.
+      - name: fuel_cost_credits
+        description: Fuel cost per trip on this route, in credits.
+      - name: risk_level
+        description: Route risk classification - low, medium, or high.
+      - name: shipped_at
+        description: Timestamp the shipment departed.
+      - name: shipped_date
+        description: Date the shipment departed.
+      - name: delivered_at
+        description: Timestamp of delivery, null while in transit.
+      - name: delivery_days
+        description: Actual days in transit, null while in transit.
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+              config:
+                where: "delivery_days is not null"
+      - name: shipment_status
+        description: in_transit or delivered.
+      - name: delivered_on_time
+        description: True when actual transit was within the route estimate.
+      - name: days_vs_estimate
+        description: Actual days minus estimated days. Positive means late.
+
+  - name: fct_support_tickets
+    description: One row per support ticket, with reply latency and resolution. The support fact that makes cross-source questions possible.
+    columns:
+      - name: ticket_id
+        description: Ticket primary key.
+        data_tests: [unique, not_null]
+      - name: customer_id
+        description: Customer who raised the ticket.
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customer')
+              field: customer_id
+      - name: order_id
+        description: Order the ticket refers to.
+      - name: product_sku
+        description: Product the ticket refers to. Null on roughly 4 percent of tickets, which name no product at all.
+      - name: product_name
+        description: Name of that product, null when no product is attached.
+      - name: category_id
+        description: Category of that product.
+      - name: subject
+        description: Ticket subject line.
+      - name: ticket_status
+        description: new, open, pending, solved, or closed.
+      - name: priority
+        description: low, normal, high, or urgent.
+      - name: channel
+        description: How the ticket arrived - email, web, chat, or phone.
+      - name: created_at
+        description: Timestamp the ticket was raised.
+      - name: created_date
+        description: Date the ticket was raised.
+      - name: updated_at
+        description: Timestamp of the last activity on the ticket.
+      - name: satisfaction_rating
+        description: Customer satisfaction score from 1 to 5, only present once resolved.
+      - name: body_chars
+        description: Length of the ticket body in characters.
+      - name: comment_count
+        description: Total comments on the thread.
+      - name: agent_comment_count
+        description: Comments written by an agent.
+      - name: first_agent_reply_at
+        description: Timestamp of the first agent reply, null when never answered.
+      - name: hours_to_first_reply
+        description: Hours between the ticket being raised and the first agent reply.
+      - name: is_resolved
+        description: True when the ticket is solved or closed.
+      - name: has_no_product_attached
+        description: True when the ticket names no product. These are the tickets where an answer can most easily overclaim.
+
+  - name: mart_customer_360
+    description: One row per customer with commercial, fulfilment, and support metrics together. Start here for any question about how a customer is doing. Recency is measured against 2026-08-31, the end of the data window.
+    columns:
+      - name: customer_id
+        description: Customer primary key.
+        data_tests: [unique, not_null]
+      - name: company_name
+        description: Customer organisation name.
+      - name: customer_tier
+        description: Commercial tier.
+      - name: industry
+        description: Industry from the CRM.
+      - name: is_active
+        description: Whether the account is active.
+      - name: home_planet_name
+        description: Planet the customer is based on.
+      - name: signup_date
+        description: Date the customer signed up.
+      - name: order_count
+        description: Total orders placed, all statuses.
+      - name: lifetime_revenue_credits
+        description: Sum of order value in credits, before refunds.
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+      - name: lifetime_refunded_credits
+        description: Total refunded to this customer in credits.
+      - name: lifetime_net_credits
+        description: Revenue minus refunds. Use this for customer value.
+      - name: avg_order_credits
+        description: Mean order value in credits.
+      - name: first_order_date
+        description: Date of the customer's first order.
+      - name: last_order_date
+        description: Date of the customer's most recent order.
+      - name: cancelled_order_count
+        description: Orders that were cancelled.
+      - name: late_delivery_rate
+        description: Share of measurable deliveries that missed the route estimate, from 0 to 1. Null when nothing has been delivered yet.
+      - name: ticket_count
+        description: Total support tickets raised.
+      - name: open_ticket_count
+        description: Tickets not yet solved or closed.
+      - name: high_priority_ticket_count
+        description: Tickets at high or urgent priority.
+      - name: avg_satisfaction_rating
+        description: Mean satisfaction score from 1 to 5 across resolved tickets.
+      - name: avg_hours_to_first_reply
+        description: Mean hours to first agent reply across this customer's tickets.
+      - name: last_ticket_date
+        description: Date of the customer's most recent ticket.
+      - name: top_category_name
+        description: Product category this customer has spent the most in.
+      - name: subscription_count
+        description: Total subscriptions ever held.
+      - name: active_subscription_count
+        description: Subscriptions currently active.
+      - name: active_subscription_credits
+        description: Recurring credits across active subscriptions.
+      - name: days_since_last_order
+        description: Days from the customer's last order to 2026-08-31, the end of the data window. Not measured against the current date.
+      - name: days_since_last_ticket
+        description: Days from the customer's last ticket to 2026-08-31, the end of the data window.
+
+  - name: mart_product_performance
+    description: One row per product combining sales, refunds, and support load. tickets_per_hundred_units is the cross-source metric that no single system could produce.
+    columns:
+      - name: product_sku
+        description: Product stock keeping unit.
+        data_tests: [unique, not_null]
+      - name: product_name
+        description: Product name.
+      - name: category_name
+        description: Immediate category.
+      - name: parent_category_name
+        description: Parent category.
+      - name: is_hazardous
+        description: Whether the product is hazardous.
+      - name: requires_cold_chain
+        description: Whether the product needs temperature-controlled transport.
+      - name: base_price_credits
+        description: Catalogue list price in credits.
+      - name: order_count
+        description: Distinct orders containing this product.
+      - name: units_sold
+        description: Total units sold.
+      - name: revenue_credits
+        description: Total line revenue for this product in credits.
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+      - name: avg_unit_price_credits
+        description: Mean price actually charged per unit.
+      - name: avg_price_variance_credits
+        description: Mean difference between charged price and list price. Negative means typically discounted.
+      - name: ticket_count
+        description: Support tickets naming this product.
+      - name: high_priority_ticket_count
+        description: Those tickets at high or urgent priority.
+      - name: avg_satisfaction_rating
+        description: Mean satisfaction score on tickets about this product.
+      - name: refunded_order_count
+        description: Orders containing this product that were refunded.
+      - name: refund_rate
+        description: Refunded orders as a share of orders containing this product, 0 to 1.
+      - name: tickets_per_hundred_units
+        description: Support tickets per hundred units sold. High values flag products that generate support load out of proportion to what they earn.
+
+  - name: mart_route_performance
+    description: One row per shipping route with estimate-versus-actual delivery and fuel cost against revenue carried.
+    columns:
+      - name: route_id
+        description: Route primary key.
+        data_tests: [unique, not_null]
+      - name: route_name
+        description: Route name, for example Earth-Mars Standard.
+      - name: risk_level
+        description: Route risk classification.
+      - name: distance_million_km
+        description: Distance in millions of kilometres.
+      - name: estimated_transit_days
+        description: The route's published transit estimate in days.
+      - name: fuel_cost_credits
+        description: Fuel cost per trip in credits.
+      - name: origin_hub_name
+        description: Origin hub name, null when the route starts at a station.
+      - name: destination_hub_name
+        description: Destination hub name, null when the route ends at a station.
+      - name: shipment_count
+        description: Shipments dispatched on this route.
+      - name: actual_avg_delivery_days
+        description: Mean actual transit time in days.
+      - name: avg_days_vs_estimate
+        description: Mean actual minus estimated days. Positive means the route runs late on average.
+      - name: worst_delivery_days
+        description: Longest transit observed on this route.
+      - name: on_time_rate
+        description: Share of measurable deliveries within the route estimate, 0 to 1.
+      - name: order_count
+        description: Orders routed this way.
+      - name: revenue_credits
+        description: Order revenue carried on this route in credits.
+      - name: total_fuel_cost_credits
+        description: fuel_cost_credits multiplied by shipment_count.
+      - name: fuel_cost_share_of_revenue
+        description: Total fuel cost as a share of revenue carried. High values flag routes that cost more than they earn.

@@ -1,0 +1,12 @@
+planet_id,planet_name,planet_type,distance_from_sun_au,orbital_period_days,is_habitable,has_orbital_station,has_surface_hub
+1,Mercury,terrestrial,0.39,88,false,true,false
+2,Venus,terrestrial,0.72,225,false,true,false
+3,Earth,terrestrial,1.00,365,true,true,true
+4,Mars,terrestrial,1.52,687,true,true,true
+5,Jupiter,gas_giant,5.20,4333,false,true,false
+6,Saturn,gas_giant,9.58,10759,false,true,false
+7,Uranus,ice_giant,19.22,30687,false,true,false
+8,Neptune,ice_giant,30.05,60190,false,true,false
+9,Pluto,dwarf,39.48,90560,false,true,true
+10,Ceres,dwarf,2.77,1682,false,true,true
+

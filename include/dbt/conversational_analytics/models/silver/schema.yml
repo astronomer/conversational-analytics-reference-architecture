@@ -1,0 +1,280 @@
+version: 2
+
+models:
+  - name: customers
+    description: One row per customer, conforming the application database record with its CRM account.
+    columns:
+      - name: customer_id
+        description: Customer primary key, as used by the application database.
+        data_tests: [unique, not_null]
+      - name: account_id
+        description: Matching CRM account, null when the customer has no CRM record.
+      - name: customer_tier
+        data_tests:
+          - accepted_values:
+              values: [bronze, silver, gold, platinum]
+
+  - name: orders
+    description: One row per order placed.
+    columns:
+      - name: order_id
+        data_tests: [unique, not_null]
+      - name: customer_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('customers')
+              field: customer_id
+      - name: ordered_at
+        data_tests: [not_null]
+      - name: order_status
+        data_tests:
+          - accepted_values:
+              values: [placed, picked, dispatched, delivered, cancelled]
+      - name: route_id
+        data_tests:
+          - relationships:
+              to: ref('routes')
+              field: route_id
+      - name: revenue_credits
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+  - name: order_items
+    description: One row per line on an order.
+    columns:
+      - name: order_item_id
+        data_tests: [unique, not_null]
+      - name: order_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('orders')
+              field: order_id
+      - name: product_sku
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('products')
+              field: product_sku
+      - name: quantity
+        data_tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: "> 0"
+      - name: line_revenue_credits
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+  - name: shipments
+    description: One row per dispatched shipment. delivery_days is null while in transit.
+    columns:
+      - name: shipment_id
+        data_tests: [unique, not_null]
+      - name: order_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('orders')
+              field: order_id
+      - name: route_id
+        data_tests:
+          - relationships:
+              to: ref('routes')
+              field: route_id
+      - name: shipment_status
+        data_tests:
+          - accepted_values:
+              values: [in_transit, delivered]
+      - name: delivery_days
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+              config:
+                where: "delivery_days is not null"
+
+  - name: payments
+    description: One row per charge event from the payment processor.
+    columns:
+      - name: charge_id
+        data_tests: [unique, not_null]
+      - name: order_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('orders')
+              field: order_id
+      - name: payment_status
+        data_tests:
+          - accepted_values:
+              values: [succeeded, pending, failed]
+      - name: amount_credits
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+  - name: refunds
+    description: One row per refund event.
+    columns:
+      - name: refund_id
+        data_tests: [unique, not_null]
+      - name: charge_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('payments')
+              field: charge_id
+
+  - name: subscriptions
+    description: One row per subscription.
+    columns:
+      - name: subscription_id
+        data_tests: [unique, not_null]
+      - name: customer_id
+        data_tests:
+          - relationships:
+              to: ref('customers')
+              field: customer_id
+      - name: subscription_status
+        data_tests:
+          - accepted_values:
+              values: [active, past_due, canceled]
+
+  - name: tickets
+    description: One row per support ticket. The body is the only long-form text in this architecture and the sole embedding target.
+    columns:
+      - name: ticket_id
+        data_tests: [unique, not_null]
+      - name: customer_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('customers')
+              field: customer_id
+      - name: product_sku
+        description: >
+          Nullable on purpose. About 4 percent of tickets name no product, which is
+          the case where the agent can overclaim about a product the ticket never
+          mentioned. There is deliberately no relationships test here, because it
+          would fail on those nulls.
+      - name: body
+        data_tests: [not_null]
+      - name: ticket_status
+        data_tests:
+          - accepted_values:
+              values: [new, open, pending, solved, closed]
+      - name: priority
+        data_tests:
+          - accepted_values:
+              values: [low, normal, high, urgent]
+
+  - name: ticket_comments
+    description: One row per comment, flattened out of the nested ticket payload.
+    columns:
+      - name: comment_id
+        data_tests: [unique, not_null]
+      - name: ticket_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('tickets')
+              field: ticket_id
+      - name: author_role
+        data_tests:
+          - accepted_values:
+              values: [customer, agent]
+
+  - name: accounts
+    description: CRM accounts.
+    columns:
+      - name: account_id
+        data_tests: [unique, not_null]
+
+  - name: contacts
+    description: CRM contacts, with email normalised to lower case and trimmed.
+    columns:
+      - name: contact_id
+        data_tests: [unique, not_null]
+      - name: account_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('accounts')
+              field: account_id
+      - name: email
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "= lower(trim(email))"
+
+  - name: opportunities
+    description: CRM opportunities.
+    columns:
+      - name: opportunity_id
+        data_tests: [unique, not_null]
+      - name: account_id
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('accounts')
+              field: account_id
+      - name: stage
+        data_tests:
+          - accepted_values:
+              values: [prospecting, qualification, proposal, negotiation, closed_won, closed_lost]
+
+  - name: products
+    description: Product catalogue.
+    columns:
+      - name: product_sku
+        data_tests: [unique, not_null]
+      - name: category_id
+        data_tests:
+          - relationships:
+              to: ref('product_categories')
+              field: category_id
+
+  - name: product_categories
+    description: Product category hierarchy.
+    columns:
+      - name: category_id
+        data_tests: [unique, not_null]
+
+  - name: routes
+    description: Shipping routes between origin and destination.
+    columns:
+      - name: route_id
+        data_tests: [unique, not_null]
+
+  - name: hubs
+    description: Surface and orbital fulfilment hubs.
+    columns:
+      - name: hub_id
+        data_tests: [unique, not_null]
+
+  - name: stations
+    description: Space stations.
+    columns:
+      - name: station_id
+        data_tests: [unique, not_null]
+
+  - name: planets
+    columns:
+      - name: planet_id
+        data_tests: [unique, not_null]
+
+  - name: moons
+    columns:
+      - name: moon_id
+        data_tests: [unique, not_null]
+
+  - name: asteroids
+    columns:
+      - name: asteroid_id
+        data_tests: [unique, not_null]
+
+  - name: suppliers
+    columns:
+      - name: supplier_id
+        data_tests: [unique, not_null]

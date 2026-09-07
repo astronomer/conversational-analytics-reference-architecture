@@ -1,0 +1,11 @@
+promotion_id,promotion_name,promotion_type,discount_value,discount_percentage,min_order_credits,max_discount_credits,campaign_id,product_id,category_id,valid_from,valid_to,is_active
+1,New Year 10% Off,percentage_off,,10.00,100,500,1,,,2026-01-01 00:00:00,2026-01-15 23:59:59,true
+2,Mars Resident Discount,percentage_off,,15.00,50,1000,2,,,2025-12-10 00:00:00,2026-02-28 23:59:59,true
+3,Free Shipping Jupiter,free_shipping,0,,200,,3,,,2025-11-15 00:00:00,2026-01-31 23:59:59,true
+4,Life Support Flash Sale,percentage_off,,25.00,500,2500,1,,1,2026-01-05 00:00:00,2026-01-07 23:59:59,false
+5,Belt Miner Tools Deal,fixed_amount,200,,1000,,5,,29,2025-11-01 00:00:00,2025-11-30 23:59:59,false
+6,Galaxy Prime Welcome,percentage_off,,20.00,0,5000,6,,,2025-10-01 00:00:00,2026-03-31 23:59:59,true
+7,Holiday Spacesuit Special,fixed_amount,500,,2000,,4,,22,2025-12-15 00:00:00,2025-12-31 23:59:59,false
+8,Titan Ice Fest Special,buy_x_get_y,,,300,,8,,5,2025-11-15 00:00:00,2025-12-15 23:59:59,false
+9,Electronics Bundle,percentage_off,,12.00,400,800,10,,13,2025-11-20 00:00:00,2025-11-30 23:59:59,false
+10,First Order Bonus,fixed_amount,100,,0,100,6,,,2025-10-01 00:00:00,2026-03-31 23:59:59,true

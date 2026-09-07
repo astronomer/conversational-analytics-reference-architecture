@@ -1,0 +1,34 @@
+category_id,category_name,parent_category_id,category_level,description,is_active
+1,Life Support,,1,Essential life support equipment and consumables,true
+2,Oxygen Systems,1,2,Oxygen generation and storage,true
+3,Water Systems,1,2,Water recycling and purification,true
+4,Air Filtration,1,2,Air scrubbers and filters,true
+5,Food & Nutrition,,1,Food supplies and nutrition products,true
+6,Preserved Foods,5,2,Long-shelf-life preserved foods,true
+7,Hydroponic Supplies,5,2,Growing equipment and seeds,true
+8,Nutritional Supplements,5,2,Vitamins and supplements for space living,true
+9,Spacecraft Parts,,1,Replacement parts and components,true
+10,Propulsion,9,2,Engines and propulsion systems,true
+11,Navigation,9,2,Navigation and guidance systems,true
+12,Hull & Structure,9,2,Structural components and hull plating,true
+13,Electronics,,1,Electronic devices and components,true
+14,Communication Devices,13,2,Radios and communication equipment,true
+15,Computing,13,2,Computers and processors,true
+16,Sensors,13,2,Sensors and detection equipment,true
+17,Habitat Equipment,,1,Living space equipment,true
+18,Furniture,17,2,Space-optimized furniture,true
+19,Climate Control,17,2,Heating and cooling systems,true
+20,Lighting,17,2,Lighting systems,true
+21,Safety & Protection,,1,Safety equipment and protective gear,true
+22,Spacesuits,21,2,EVA suits and accessories,true
+23,Radiation Protection,21,2,Radiation shielding,true
+24,Emergency Equipment,21,2,Emergency kits and supplies,true
+25,Entertainment,,1,Entertainment and recreation,true
+26,Media & Games,25,2,Digital media and games,true
+27,Sports Equipment,25,2,Zero-G and planetary sports gear,true
+28,Books & Education,25,2,Educational materials,true
+29,Mining Equipment,,1,Mining and extraction tools,true
+30,Excavation Tools,29,2,Drills and excavators,true
+31,Processing Equipment,29,2,Ore processing machinery,true
+32,Transport Containers,29,2,Cargo containers for materials,true
+

@@ -1,0 +1,26 @@
+station_id,station_name,station_type,planet_id,moon_id,asteroid_id,orbital_altitude_km,capacity_tonnes,is_operational,commissioned_date
+1,Hermes Station,orbital,1,,,500,5000,true,2019-03-15
+2,Cloud City,orbital,2,,,1000,8000,true,2020-07-22
+3,Earth Spacedock,orbital,3,,,400,2000,true,2015-11-01
+4,Deep Space Nine,orbital,3,,,35786,50000,true,2018-06-12
+5,Utopia Planitia,orbital,4,,,400,25000,true,2017-04-18
+6,Midway Station,orbital,4,,,50,3000,true,2019-09-03
+7,Jupiter Station,lagrange,5,,,1000000,40000,true,2021-12-01
+8,Starbase 11,orbital,6,,,100000,35000,true,2022-03-28
+9,K-7 Station,orbital,7,,,50000,15000,true,2023-08-14
+10,Starbase 375,orbital,8,,,30000,12000,true,2024-01-20
+11,New Horizons,orbital,9,,,2000,5000,true,2024-05-07
+12,Tycho Station,orbital,10,,,500,20000,true,2018-11-30
+13,Polaris,orbital,,1,,100,30000,true,2016-02-14
+14,Atlantis,orbital,,5,,200,18000,true,2021-09-25
+15,Medina Station,orbital,,6,,300,22000,true,2022-04-11
+16,Babylon Station,orbital,,7,,250,15000,true,2022-06-19
+17,Titan Base Alpha,orbital,,8,,1000,28000,true,2023-10-08
+18,Enceladus Outpost,orbital,,9,,100,8000,true,2023-12-03
+19,Narendra Station,orbital,,15,,150,10000,true,2024-07-22
+20,Triton Relay,orbital,,17,,200,14000,true,2024-03-15
+21,Charon Depot,orbital,,18,,50,6000,true,2025-08-28
+22,Vesta Prime,orbital,,,1,100,25000,true,2018-04-12
+23,Pallas Shipyard,orbital,,,2,80,20000,true,2019-06-23
+24,Psyche Works,orbital,,,4,50,30000,true,2020-09-17
+25,Eros Station,orbital,,,10,20,5000,true,2017-03-08

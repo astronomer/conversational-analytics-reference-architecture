@@ -1,0 +1,24 @@
+supplier_location_id,supplier_id,location_name,planet_id,moon_id,asteroid_id,is_primary,is_active
+1,1,SpaceX Earth HQ,3,,,true,true
+2,1,SpaceX Mars Facility,4,,,false,true
+3,2,Mars Industrial Main,4,,,true,true
+4,2,Mars Industrial Luna Branch,,1,,false,true
+5,3,Belt Mining Ceres HQ,10,,,true,true
+6,3,Belt Mining Vesta Ops,,,1,false,true
+7,3,Belt Mining Pallas Site,,,2,false,true
+8,4,Jovian Shipyards Ganymede,,6,,true,true
+9,4,Jovian Shipyards Callisto,,7,,false,true
+10,5,Saturn Ring Main,,8,,true,true
+11,5,Saturn Ring Enceladus,,9,,false,true
+12,6,Outer Reach Neptune,,17,,true,true
+13,6,Outer Reach Pluto,9,,,false,true
+14,7,Luna Hydroponics Main,,1,,true,true
+15,8,Earth Prime Foods HQ,3,,,true,true
+16,9,Titan Organics Main,,8,,true,true
+17,10,Europa Ice Main,,5,,true,true
+18,11,Ceres Water HQ,10,,,true,true
+19,12,Vesta Metal HQ,,,1,true,true
+20,13,Psyche Metals Main,,,4,true,true
+21,14,Ganymede Tech HQ,,6,,true,true
+22,15,Enceladus Chem Main,,9,,true,true
+

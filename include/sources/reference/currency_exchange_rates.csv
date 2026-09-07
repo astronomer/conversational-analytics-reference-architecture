@@ -1,0 +1,14 @@
+exchange_rate_id,from_currency,to_currency,exchange_rate,rate_date,source
+1,GC,USD,1.00000000,2025-12-01,Galactic Reserve
+2,GC,EUR,0.92000000,2025-12-01,Galactic Reserve
+3,GC,MC,0.85000000,2025-12-01,Mars Central Bank
+4,GC,TC,1.25000000,2025-12-01,Titan Credit Union
+5,GC,EC,1.10000000,2025-12-01,Europa Exchange
+6,MC,GC,1.17647059,2025-12-01,Mars Central Bank
+7,TC,GC,0.80000000,2025-12-01,Titan Credit Union
+8,EC,GC,0.90909091,2025-12-01,Europa Exchange
+9,GC,USD,1.00000000,2026-01-01,Galactic Reserve
+10,GC,EUR,0.91500000,2026-01-01,Galactic Reserve
+11,GC,MC,0.84500000,2026-01-01,Mars Central Bank
+12,GC,TC,1.26000000,2026-01-01,Titan Credit Union
+13,GC,EC,1.09500000,2026-01-01,Europa Exchange

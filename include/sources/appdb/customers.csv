@@ -1,0 +1,401 @@
+customer_id,company_name,contact_name,email,customer_tier,home_planet_id,signup_date,is_active
+CUST-00001,Helios Yards,Seven of Nine,seven@heliosyards.example,silver,2,2025-06-16,true
+CUST-00002,Dovetail Holdings,Una Chin-Riley,una@dovetailholdings.example,bronze,2,2025-12-31,true
+CUST-00003,Cistern Supply,Nyota Uhura,nyota@cisternsupply.example,silver,4,2024-01-28,true
+CUST-00004,Vertex Combine,Hemmer,hemmer@vertexcombine.example,gold,9,2023-10-25,true
+CUST-00005,Vertex Freight,Seven of Nine,seven@vertexfreight.example,silver,3,2025-06-24,true
+CUST-00006,Tycho Holdings,Sylvia Tilly,sylvia@tychoholdings.example,bronze,6,2025-01-28,true
+CUST-00007,Perihelion Logistics,Pelia,pelia@perihelionlogistics.example,bronze,10,2025-01-08,true
+CUST-00008,Fathom Freight,Odo,odo@fathomfreight.example,bronze,5,2025-12-15,true
+CUST-00009,Kepler Combine,Geordi La Forge,geordi@keplercombine.example,platinum,5,2025-04-21,true
+CUST-00010,Aurora Freight,Travis Mayweather,travis@aurorafreight.example,silver,6,2024-03-15,true
+CUST-00011,Fathom Collective,Jadzia Dax,jadzia@fathomcollective.example,silver,2,2025-08-16,true
+CUST-00012,Dovetail Combine,Trip Tucker,trip@dovetailcombine.example,bronze,5,2025-06-10,true
+CUST-00013,Umbra Works,Janice Rand,janice@umbraworks.example,silver,6,2024-06-29,true
+CUST-00014,Cinder Collective,Raffi Musiker,raffi@cindercollective.example,platinum,6,2024-04-12,true
+CUST-00015,Solstice Combine,Murf,murf@solsticecombine.example,gold,5,2023-12-28,true
+CUST-00016,Umbra Freight,Ezri Dax,ezri@umbrafreight.example,silver,10,2024-08-27,true
+CUST-00017,Tycho Cooperative,Kira Nerys,kira@tychocooperative.example,platinum,1,2024-05-30,true
+CUST-00018,Fathom Outfitters,Dal R'El,dal@fathomoutfitters.example,gold,7,2024-07-13,true
+CUST-00019,Tycho Collective,Gwyndala,gwyndala@tychocollective.example,gold,1,2023-12-05,true
+CUST-00020,Quadrant Provisioning,Kira Nerys,kira@quadrantprovisioning.example,platinum,2,2026-01-27,true
+CUST-00021,Cistern Cooperative,Cristobal Rios,cristobal@cisterncooperative.example,bronze,5,2024-04-30,true
+CUST-00022,Fathom Combine,Benjamin Sisko,benjamin@fathomcombine.example,gold,9,2023-12-12,true
+CUST-00023,Helios Supply,Trip Tucker,trip@heliossupply.example,platinum,9,2026-01-11,true
+CUST-00024,Quadrant Combine,Christine Chapel,christine@quadrantcombine.example,silver,6,2024-06-29,true
+CUST-00025,Beacon Holdings,Gwyndala,gwyndala@beaconholdings.example,silver,2,2025-09-21,true
+CUST-00026,Aurora Works,Dal R'El,dal@auroraworks.example,platinum,9,2025-06-28,true
+CUST-00027,Quadrant Provisioning,Saru,saru@quadrantprovisioning.example,platinum,4,2024-08-19,true
+CUST-00028,Lodestar Holdings,Hoshi Sato,hoshi@lodestarholdings.example,bronze,4,2024-06-07,true
+CUST-00029,Lodestar Logistics,Jean-Luc Picard,jeanluc@lodestarlogistics.example,bronze,10,2025-06-10,true
+CUST-00030,Sable Holdings,Agnes Jurati,agnes@sableholdings.example,silver,1,2025-04-20,true
+CUST-00031,Dovetail Cooperative,Brad Boimler,brad@dovetailcooperative.example,silver,4,2023-11-19,true
+CUST-00032,Cinder Holdings,Geordi La Forge,geordi@cinderholdings.example,platinum,7,2025-02-02,true
+CUST-00033,Meridian Collective,Geordi La Forge,geordi@meridiancollective.example,bronze,8,2024-12-14,true
+CUST-00034,Lodestar Combine,Odo,odo@lodestarcombine.example,platinum,2,2025-09-09,true
+CUST-00035,Anvil Combine,Jean-Luc Picard,jeanluc@anvilcombine.example,platinum,5,2023-10-26,true
+CUST-00036,Tycho Logistics,Jankom Pog,jankom@tychologistics.example,bronze,9,2025-10-27,true
+CUST-00037,Aurora Provisioning,Sam Rutherford,sam@auroraprovisioning.example,platinum,4,2025-06-26,true
+CUST-00038,Aurora Provisioning,James Kirk,james@auroraprovisioning.example,platinum,1,2025-05-04,true
+CUST-00039,Quadrant Provisioning,Murf,murf@quadrantprovisioning.example,platinum,8,2025-08-25,true
+CUST-00040,Meridian Supply,Jankom Pog,jankom@meridiansupply.example,bronze,4,2023-12-27,true
+CUST-00041,Ember Outfitters,Cristobal Rios,cristobal@emberoutfitters.example,silver,1,2025-12-03,true
+CUST-00042,Aurora Holdings,Janice Rand,janice@auroraholdings.example,silver,2,2024-12-13,true
+CUST-00043,Lodestar Supply,Pavel Chekov,pavel@lodestarsupply.example,bronze,10,2024-11-27,true
+CUST-00044,Cistern Freight,Tom Paris,tom@cisternfreight.example,silver,10,2024-03-16,true
+CUST-00045,Perihelion Provisioning,Wesley Crusher,wesley@perihelionprovisioning.example,gold,4,2024-10-19,true
+CUST-00046,Helios Outfitters,Geordi La Forge,geordi@heliosoutfitters.example,bronze,2,2024-07-29,true
+CUST-00047,Solstice Freight,Janice Rand,janice@solsticefreight.example,silver,5,2025-01-17,true
+CUST-00048,Dovetail Yards,Naomi Wildman,naomi@dovetailyards.example,bronze,8,2024-03-18,true
+CUST-00049,Tycho Cooperative,Tom Paris,tom@tychocooperative.example,bronze,5,2025-10-13,true
+CUST-00050,Perihelion Works,Elim Garak,elim@perihelionworks.example,gold,3,2025-07-06,true
+CUST-00051,Cistern Outfitters,B'Elanna Torres,belanna@cisternoutfitters.example,bronze,5,2025-10-28,true
+CUST-00052,Meridian Logistics,Malcolm Reed,malcolm@meridianlogistics.example,silver,5,2024-04-18,true
+CUST-00053,Anvil Consortium,Una Chin-Riley,una@anvilconsortium.example,bronze,3,2025-10-08,true
+CUST-00054,Dovetail Logistics,Saru,saru@dovetaillogistics.example,silver,3,2024-11-16,true
+CUST-00055,Tessera Logistics,Travis Mayweather,travis@tesseralogistics.example,silver,5,2024-03-03,true
+CUST-00056,Tessera Consortium,Cleveland Booker,cleveland@tesseraconsortium.example,silver,2,2025-06-02,true
+CUST-00057,Vertex Logistics,Julian Bashir,julian@vertexlogistics.example,gold,3,2023-11-21,true
+CUST-00058,Perihelion Cooperative,Worf,worf@perihelioncooperative.example,platinum,4,2025-12-22,true
+CUST-00059,Cinder Outfitters,Phlox,phlox@cinderoutfitters.example,gold,4,2023-10-13,true
+CUST-00060,Lodestar Logistics,Odo,odo@lodestarlogistics.example,platinum,4,2025-02-28,true
+CUST-00061,Perihelion Freight,Agnes Jurati,agnes@perihelionfreight.example,platinum,2,2024-03-06,true
+CUST-00062,Sable Logistics,Deanna Troi,deanna@sablelogistics.example,gold,9,2025-08-01,true
+CUST-00063,Meridian Holdings,Erica Ortegas,erica@meridianholdings.example,gold,5,2024-01-15,true
+CUST-00064,Fathom Consortium,Deanna Troi,deanna@fathomconsortium.example,platinum,7,2024-06-19,true
+CUST-00065,Vertex Logistics,Elnor,elnor@vertexlogistics.example,silver,1,2025-01-23,true
+CUST-00066,Fathom Freight,Beverly Crusher,beverly@fathomfreight.example,gold,6,2024-08-29,true
+CUST-00067,Sable Provisioning,Kes,kes@sableprovisioning.example,silver,7,2025-07-18,true
+CUST-00068,Aurora Supply,Naomi Wildman,naomi@aurorasupply.example,platinum,7,2024-07-18,true
+CUST-00069,Quadrant Combine,Erica Ortegas,erica@quadrantcombine.example,gold,5,2024-10-11,true
+CUST-00070,Cistern Outfitters,Jadzia Dax,jadzia@cisternoutfitters.example,bronze,4,2025-04-15,true
+CUST-00071,Sable Holdings,Chakotay,chakotay@sableholdings.example,gold,10,2025-06-14,true
+CUST-00072,Helios Logistics,Tuvok,tuvok@helioslogistics.example,platinum,3,2024-05-15,true
+CUST-00073,Anvil Provisioning,Odo,odo@anvilprovisioning.example,platinum,2,2024-09-11,true
+CUST-00074,Helios Holdings,Una Chin-Riley,una@heliosholdings.example,silver,3,2025-08-03,true
+CUST-00075,Anvil Logistics,Murf,murf@anvillogistics.example,silver,9,2023-09-15,true
+CUST-00076,Anvil Collective,Dal R'El,dal@anvilcollective.example,gold,3,2023-12-19,true
+CUST-00077,Cistern Provisioning,Zero,zero@cisternprovisioning.example,platinum,10,2025-08-21,true
+CUST-00078,Anvil Works,Tuvok,tuvok@anvilworks.example,gold,8,2023-12-08,true
+CUST-00079,Lodestar Works,La'an Noonien-Singh,laan@lodestarworks.example,bronze,8,2024-01-31,true
+CUST-00080,Sable Freight,Jankom Pog,jankom@sablefreight.example,bronze,5,2025-09-11,true
+CUST-00081,Solstice Yards,Nog,nog@solsticeyards.example,bronze,7,2024-12-02,true
+CUST-00082,Anvil Provisioning,Christine Chapel,christine@anvilprovisioning.example,silver,9,2023-10-01,true
+CUST-00083,Helios Supply,Sylvia Tilly,sylvia@heliossupply.example,platinum,10,2026-01-24,true
+CUST-00084,Umbra Provisioning,Gwyndala,gwyndala@umbraprovisioning.example,silver,5,2024-09-18,true
+CUST-00085,Beacon Logistics,Paul Stamets,paul@beaconlogistics.example,gold,7,2024-03-17,true
+CUST-00086,Aurora Outfitters,Wesley Crusher,wesley@auroraoutfitters.example,bronze,7,2024-12-23,true
+CUST-00087,Kepler Collective,Una Chin-Riley,una@keplercollective.example,silver,1,2024-10-15,true
+CUST-00088,Umbra Freight,Nog,nog@umbrafreight.example,platinum,5,2025-03-02,true
+CUST-00089,Perihelion Provisioning,B'Elanna Torres,belanna@perihelionprovisioning.example,bronze,7,2024-10-06,false
+CUST-00090,Meridian Freight,Ezri Dax,ezri@meridianfreight.example,bronze,9,2023-11-23,true
+CUST-00091,Helios Combine,Quark,quark@helioscombine.example,bronze,1,2024-05-04,true
+CUST-00092,Beacon Collective,Deanna Troi,deanna@beaconcollective.example,silver,3,2024-10-11,true
+CUST-00093,Aurora Supply,Deanna Troi,deanna@aurorasupply.example,silver,6,2025-03-18,true
+CUST-00094,Quadrant Supply,Sylvia Tilly,sylvia@quadrantsupply.example,platinum,1,2024-01-29,true
+CUST-00095,Lodestar Holdings,Naomi Wildman,naomi@lodestarholdings.example,bronze,10,2023-11-07,true
+CUST-00096,Tessera Consortium,Una Chin-Riley,una@tesseraconsortium.example,gold,1,2025-11-21,true
+CUST-00097,Helios Provisioning,Sam Rutherford,sam@heliosprovisioning.example,bronze,6,2024-11-13,true
+CUST-00098,Solstice Provisioning,Julian Bashir,julian@solsticeprovisioning.example,gold,8,2024-05-10,true
+CUST-00099,Beacon Outfitters,Erica Ortegas,erica@beaconoutfitters.example,gold,9,2025-03-06,true
+CUST-00100,Perihelion Outfitters,Tuvok,tuvok@perihelionoutfitters.example,platinum,2,2024-06-26,true
+CUST-00101,Sable Logistics,Raffi Musiker,raffi@sablelogistics.example,gold,7,2025-07-28,true
+CUST-00102,Perihelion Freight,Seven of Nine,seven@perihelionfreight.example,gold,6,2024-07-10,false
+CUST-00103,Kepler Combine,Cleveland Booker,cleveland@keplercombine.example,platinum,4,2024-07-11,true
+CUST-00104,Beacon Outfitters,Leonard McCoy,leonard@beaconoutfitters.example,bronze,8,2025-04-04,true
+CUST-00105,Quadrant Collective,Saru,saru@quadrantcollective.example,platinum,4,2024-07-13,true
+CUST-00106,Dovetail Freight,Travis Mayweather,travis@dovetailfreight.example,platinum,7,2025-04-28,true
+CUST-00107,Tycho Yards,Odo,odo@tychoyards.example,gold,4,2025-09-30,true
+CUST-00108,Cinder Combine,D'Vana Tendi,dvana@cindercombine.example,gold,3,2024-01-20,true
+CUST-00109,Fathom Works,Geordi La Forge,geordi@fathomworks.example,silver,9,2025-04-02,true
+CUST-00110,Quadrant Logistics,Gwyndala,gwyndala@quadrantlogistics.example,silver,3,2025-04-25,false
+CUST-00111,Dovetail Works,Wesley Crusher,wesley@dovetailworks.example,platinum,1,2025-10-17,true
+CUST-00112,Quadrant Outfitters,D'Vana Tendi,dvana@quadrantoutfitters.example,platinum,10,2025-02-16,true
+CUST-00113,Perihelion Outfitters,Deanna Troi,deanna@perihelionoutfitters.example,bronze,1,2024-12-16,true
+CUST-00114,Meridian Cooperative,Benjamin Sisko,benjamin@meridiancooperative.example,gold,10,2025-11-04,true
+CUST-00115,Dovetail Provisioning,Ezri Dax,ezri@dovetailprovisioning.example,platinum,2,2024-10-26,true
+CUST-00116,Ember Provisioning,Jonathan Archer,jonathan@emberprovisioning.example,bronze,5,2024-05-16,true
+CUST-00117,Cinder Collective,Nog,nog@cindercollective.example,gold,2,2024-03-25,true
+CUST-00118,Aurora Consortium,Jean-Luc Picard,jeanluc@auroraconsortium.example,silver,4,2026-01-28,true
+CUST-00119,Beacon Works,Hikaru Sulu,hikaru@beaconworks.example,silver,10,2025-04-10,true
+CUST-00120,Kepler Collective,Kathryn Janeway,kathryn@keplercollective.example,gold,8,2023-11-16,true
+CUST-00121,Cinder Provisioning,Deanna Troi,deanna@cinderprovisioning.example,silver,10,2024-04-07,true
+CUST-00122,Solstice Holdings,Christine Chapel,christine@solsticeholdings.example,silver,5,2023-11-11,true
+CUST-00123,Quadrant Outfitters,Beverly Crusher,beverly@quadrantoutfitters.example,platinum,10,2024-02-25,true
+CUST-00124,Perihelion Consortium,Jankom Pog,jankom@perihelionconsortium.example,platinum,7,2024-11-08,true
+CUST-00125,Vertex Yards,Trip Tucker,trip@vertexyards.example,gold,1,2026-01-04,true
+CUST-00126,Ember Logistics,Harry Kim,harry@emberlogistics.example,bronze,10,2023-12-11,true
+CUST-00127,Cistern Collective,La'an Noonien-Singh,laan@cisterncollective.example,gold,8,2025-07-29,true
+CUST-00128,Beacon Holdings,Brad Boimler,brad@beaconholdings.example,gold,7,2024-12-08,true
+CUST-00129,Aurora Freight,Cleveland Booker,cleveland@aurorafreight.example,platinum,2,2025-04-10,true
+CUST-00130,Dovetail Logistics,Pelia,pelia@dovetaillogistics.example,bronze,7,2025-03-14,true
+CUST-00131,Umbra Consortium,James Kirk,james@umbraconsortium.example,platinum,2,2024-12-03,false
+CUST-00132,Tessera Supply,Raffi Musiker,raffi@tesserasupply.example,platinum,9,2023-12-14,false
+CUST-00133,Dovetail Cooperative,Neelix,neelix@dovetailcooperative.example,platinum,5,2024-02-15,true
+CUST-00134,Fathom Combine,Kira Nerys,kira@fathomcombine.example,gold,1,2024-07-15,false
+CUST-00135,Kepler Combine,Deanna Troi,deanna@keplercombine.example,platinum,7,2025-10-02,true
+CUST-00136,Beacon Yards,Kes,kes@beaconyards.example,gold,3,2024-12-01,true
+CUST-00137,Lodestar Outfitters,Zero,zero@lodestaroutfitters.example,silver,8,2025-01-03,true
+CUST-00138,Cistern Yards,Guinan,guinan@cisternyards.example,bronze,10,2025-04-23,true
+CUST-00139,Sable Consortium,Harry Kim,harry@sableconsortium.example,bronze,7,2025-04-16,true
+CUST-00140,Ember Collective,Sam Rutherford,sam@embercollective.example,silver,10,2024-10-30,true
+CUST-00141,Sable Consortium,Jankom Pog,jankom@sableconsortium.example,platinum,6,2024-10-21,true
+CUST-00142,Lodestar Supply,Paul Stamets,paul@lodestarsupply.example,silver,4,2023-11-28,true
+CUST-00143,Beacon Yards,Sylvia Tilly,sylvia@beaconyards.example,platinum,6,2024-03-22,true
+CUST-00144,Beacon Logistics,Wesley Crusher,wesley@beaconlogistics.example,gold,3,2025-10-20,true
+CUST-00145,Tycho Consortium,Pelia,pelia@tychoconsortium.example,bronze,8,2024-01-22,true
+CUST-00146,Kepler Outfitters,Tom Paris,tom@kepleroutfitters.example,gold,3,2024-05-02,true
+CUST-00147,Sable Collective,Gwyndala,gwyndala@sablecollective.example,platinum,2,2025-03-12,true
+CUST-00148,Dovetail Logistics,Janice Rand,janice@dovetaillogistics.example,silver,8,2024-04-24,true
+CUST-00149,Lodestar Yards,Data,data@lodestaryards.example,platinum,5,2025-10-22,true
+CUST-00150,Anvil Cooperative,Naomi Wildman,naomi@anvilcooperative.example,bronze,2,2025-12-14,true
+CUST-00151,Quadrant Freight,Saru,saru@quadrantfreight.example,platinum,1,2025-09-03,true
+CUST-00152,Ember Collective,Miles O'Brien,miles@embercollective.example,silver,7,2025-08-04,true
+CUST-00153,Fathom Collective,Chakotay,chakotay@fathomcollective.example,platinum,7,2024-06-12,true
+CUST-00154,Perihelion Outfitters,B'Elanna Torres,belanna@perihelionoutfitters.example,bronze,8,2023-10-30,true
+CUST-00155,Dovetail Cooperative,Jean-Luc Picard,jeanluc@dovetailcooperative.example,platinum,5,2025-02-11,true
+CUST-00156,Vertex Yards,B'Elanna Torres,belanna@vertexyards.example,platinum,5,2023-09-18,true
+CUST-00157,Beacon Holdings,Chakotay,chakotay@beaconholdings.example,platinum,7,2024-06-24,true
+CUST-00158,Quadrant Logistics,Hugh Culber,hugh@quadrantlogistics.example,gold,5,2026-01-22,true
+CUST-00159,Fathom Yards,Raffi Musiker,raffi@fathomyards.example,gold,1,2023-11-28,true
+CUST-00160,Tessera Combine,Odo,odo@tesseracombine.example,gold,10,2024-03-07,true
+CUST-00161,Tycho Collective,Pavel Chekov,pavel@tychocollective.example,gold,3,2023-11-15,true
+CUST-00162,Tessera Yards,Wesley Crusher,wesley@tesserayards.example,bronze,10,2025-04-03,true
+CUST-00163,Aurora Combine,Wesley Crusher,wesley@auroracombine.example,gold,7,2024-08-05,true
+CUST-00164,Aurora Works,D'Vana Tendi,dvana@auroraworks.example,gold,5,2023-12-28,true
+CUST-00165,Anvil Holdings,Tasha Yar,tasha@anvilholdings.example,silver,2,2024-03-09,true
+CUST-00166,Dovetail Freight,Data,data@dovetailfreight.example,platinum,7,2026-01-16,true
+CUST-00167,Anvil Freight,Tom Paris,tom@anvilfreight.example,platinum,2,2023-10-11,true
+CUST-00168,Tycho Collective,Kathryn Janeway,kathryn@tychocollective.example,platinum,6,2026-01-05,true
+CUST-00169,Sable Supply,Ezri Dax,ezri@sablesupply.example,bronze,9,2024-04-20,true
+CUST-00170,Vertex Holdings,Guinan,guinan@vertexholdings.example,bronze,5,2025-12-23,true
+CUST-00171,Tycho Holdings,Chakotay,chakotay@tychoholdings.example,silver,8,2024-12-29,true
+CUST-00172,Vertex Supply,Benjamin Sisko,benjamin@vertexsupply.example,platinum,9,2024-03-31,true
+CUST-00173,Fathom Provisioning,Seven of Nine,seven@fathomprovisioning.example,bronze,8,2024-02-24,true
+CUST-00174,Anvil Combine,Michael Burnham,michael@anvilcombine.example,bronze,8,2024-02-28,true
+CUST-00175,Meridian Provisioning,Seven of Nine,seven@meridianprovisioning.example,silver,6,2025-09-27,true
+CUST-00176,Kepler Collective,Nog,nog@keplercollective.example,bronze,8,2025-12-10,true
+CUST-00177,Solstice Supply,Elim Garak,elim@solsticesupply.example,bronze,4,2023-10-04,true
+CUST-00178,Ember Combine,Kathryn Janeway,kathryn@embercombine.example,gold,4,2023-11-30,true
+CUST-00179,Helios Works,Tasha Yar,tasha@heliosworks.example,silver,10,2024-07-26,true
+CUST-00180,Tycho Collective,Nyota Uhura,nyota@tychocollective.example,silver,3,2026-01-15,true
+CUST-00181,Ember Freight,Leonard McCoy,leonard@emberfreight.example,silver,4,2025-05-04,false
+CUST-00182,Cistern Holdings,Janice Rand,janice@cisternholdings.example,platinum,7,2024-10-28,true
+CUST-00183,Ember Holdings,Hemmer,hemmer@emberholdings.example,silver,9,2024-05-11,false
+CUST-00184,Quadrant Outfitters,Nyota Uhura,nyota@quadrantoutfitters.example,bronze,9,2024-09-27,true
+CUST-00185,Tycho Outfitters,La'an Noonien-Singh,laan@tychooutfitters.example,bronze,7,2025-11-09,true
+CUST-00186,Kepler Cooperative,Seven of Nine,seven@keplercooperative.example,gold,3,2025-01-05,true
+CUST-00187,Quadrant Outfitters,Cristobal Rios,cristobal@quadrantoutfitters.example,platinum,9,2025-10-21,true
+CUST-00188,Dovetail Yards,Nog,nog@dovetailyards.example,platinum,2,2024-10-25,true
+CUST-00189,Sable Outfitters,Philippa Georgiou,philippa@sableoutfitters.example,platinum,7,2024-01-14,true
+CUST-00190,Sable Collective,B'Elanna Torres,belanna@sablecollective.example,gold,7,2025-08-27,true
+CUST-00191,Kepler Holdings,William Riker,william@keplerholdings.example,bronze,8,2024-11-14,true
+CUST-00192,Solstice Consortium,Christine Chapel,christine@solsticeconsortium.example,gold,6,2024-03-15,true
+CUST-00193,Vertex Yards,Montgomery Scott,montgomery@vertexyards.example,gold,6,2024-05-26,true
+CUST-00194,Ember Consortium,Nog,nog@emberconsortium.example,silver,2,2024-03-29,true
+CUST-00195,Tessera Consortium,Saru,saru@tesseraconsortium.example,bronze,2,2023-12-12,true
+CUST-00196,Vertex Consortium,Murf,murf@vertexconsortium.example,bronze,4,2024-05-17,true
+CUST-00197,Helios Cooperative,Harry Kim,harry@helioscooperative.example,gold,5,2025-02-17,true
+CUST-00198,Solstice Supply,Philippa Georgiou,philippa@solsticesupply.example,bronze,3,2025-09-07,true
+CUST-00199,Kepler Yards,Dal R'El,dal@kepleryards.example,silver,1,2025-01-10,true
+CUST-00200,Aurora Freight,Jonathan Archer,jonathan@aurorafreight.example,gold,6,2023-11-27,true
+CUST-00201,Kepler Logistics,Benjamin Sisko,benjamin@keplerlogistics.example,silver,10,2023-12-20,true
+CUST-00202,Perihelion Outfitters,Una Chin-Riley,una@perihelionoutfitters.example,platinum,2,2024-05-19,true
+CUST-00203,Cinder Consortium,Deanna Troi,deanna@cinderconsortium.example,gold,5,2024-11-16,true
+CUST-00204,Beacon Consortium,Jonathan Archer,jonathan@beaconconsortium.example,bronze,10,2025-06-19,true
+CUST-00205,Meridian Logistics,Elim Garak,elim@meridianlogistics.example,gold,10,2025-06-28,true
+CUST-00206,Quadrant Freight,Beverly Crusher,beverly@quadrantfreight.example,bronze,5,2024-09-08,true
+CUST-00207,Solstice Provisioning,Gwyndala,gwyndala@solsticeprovisioning.example,silver,3,2024-09-05,true
+CUST-00208,Kepler Provisioning,Pavel Chekov,pavel@keplerprovisioning.example,platinum,6,2026-01-11,true
+CUST-00209,Sable Supply,Una Chin-Riley,una@sablesupply.example,platinum,2,2024-02-04,true
+CUST-00210,Tycho Provisioning,Leonard McCoy,leonard@tychoprovisioning.example,gold,5,2025-08-08,true
+CUST-00211,Anvil Yards,Michael Burnham,michael@anvilyards.example,bronze,10,2024-11-09,true
+CUST-00212,Vertex Supply,Philippa Georgiou,philippa@vertexsupply.example,bronze,4,2024-12-21,true
+CUST-00213,Lodestar Freight,Jadzia Dax,jadzia@lodestarfreight.example,bronze,6,2024-08-26,true
+CUST-00214,Cistern Combine,Phlox,phlox@cisterncombine.example,gold,9,2024-01-17,true
+CUST-00215,Lodestar Holdings,Tasha Yar,tasha@lodestarholdings.example,gold,3,2025-07-12,true
+CUST-00216,Kepler Cooperative,Raffi Musiker,raffi@keplercooperative.example,platinum,3,2023-12-20,true
+CUST-00217,Anvil Collective,Trip Tucker,trip@anvilcollective.example,gold,10,2025-08-29,true
+CUST-00218,Anvil Collective,Naomi Wildman,naomi@anvilcollective.example,gold,8,2024-06-04,false
+CUST-00219,Kepler Works,Beckett Mariner,beckett@keplerworks.example,platinum,9,2025-12-23,false
+CUST-00220,Kepler Collective,Data,data@keplercollective.example,platinum,5,2024-10-14,true
+CUST-00221,Anvil Supply,Odo,odo@anvilsupply.example,gold,1,2024-05-21,true
+CUST-00222,Meridian Outfitters,Worf,worf@meridianoutfitters.example,gold,3,2024-01-30,true
+CUST-00223,Meridian Combine,La'an Noonien-Singh,laan@meridiancombine.example,platinum,3,2024-08-12,true
+CUST-00224,Tessera Freight,Neelix,neelix@tesserafreight.example,platinum,3,2024-12-08,true
+CUST-00225,Meridian Collective,Malcolm Reed,malcolm@meridiancollective.example,bronze,10,2025-02-27,true
+CUST-00226,Quadrant Works,Benjamin Sisko,benjamin@quadrantworks.example,gold,7,2025-11-08,true
+CUST-00227,Tessera Works,Hugh Culber,hugh@tesseraworks.example,silver,3,2024-05-31,true
+CUST-00228,Quadrant Consortium,Sylvia Tilly,sylvia@quadrantconsortium.example,gold,2,2023-10-21,true
+CUST-00229,Kepler Collective,Una Chin-Riley,una@keplercollective.example,gold,9,2026-01-12,true
+CUST-00230,Cinder Freight,Sam Rutherford,sam@cinderfreight.example,silver,3,2025-06-13,true
+CUST-00231,Kepler Works,Geordi La Forge,geordi@keplerworks.example,bronze,3,2024-03-24,true
+CUST-00232,Solstice Supply,Sylvia Tilly,sylvia@solsticesupply.example,silver,10,2025-08-17,true
+CUST-00233,Aurora Yards,La'an Noonien-Singh,laan@aurorayards.example,bronze,10,2024-12-06,true
+CUST-00234,Anvil Supply,Neelix,neelix@anvilsupply.example,platinum,4,2025-06-05,true
+CUST-00235,Beacon Combine,Saru,saru@beaconcombine.example,platinum,5,2024-10-15,true
+CUST-00236,Cistern Consortium,Christopher Pike,christopher@cisternconsortium.example,silver,7,2023-10-17,true
+CUST-00237,Solstice Works,Montgomery Scott,montgomery@solsticeworks.example,platinum,10,2025-01-15,true
+CUST-00238,Cistern Holdings,Neelix,neelix@cisternholdings.example,bronze,2,2023-12-11,true
+CUST-00239,Cistern Cooperative,Erica Ortegas,erica@cisterncooperative.example,bronze,8,2025-06-17,true
+CUST-00240,Helios Provisioning,Montgomery Scott,montgomery@heliosprovisioning.example,platinum,6,2024-09-03,true
+CUST-00241,Kepler Freight,Ezri Dax,ezri@keplerfreight.example,bronze,7,2025-03-10,true
+CUST-00242,Solstice Cooperative,Hikaru Sulu,hikaru@solsticecooperative.example,gold,6,2023-10-04,true
+CUST-00243,Beacon Outfitters,James Kirk,james@beaconoutfitters.example,bronze,3,2026-01-11,true
+CUST-00244,Dovetail Yards,Dal R'El,dal@dovetailyards.example,platinum,3,2025-10-09,true
+CUST-00245,Quadrant Holdings,Montgomery Scott,montgomery@quadrantholdings.example,silver,4,2024-11-27,true
+CUST-00246,Anvil Holdings,Deanna Troi,deanna@anvilholdings.example,platinum,10,2024-05-29,true
+CUST-00247,Ember Combine,Tasha Yar,tasha@embercombine.example,gold,9,2024-11-17,false
+CUST-00248,Lodestar Supply,Christopher Pike,christopher@lodestarsupply.example,silver,6,2024-03-21,true
+CUST-00249,Tessera Holdings,Dal R'El,dal@tesseraholdings.example,bronze,9,2024-12-27,true
+CUST-00250,Umbra Freight,B'Elanna Torres,belanna@umbrafreight.example,bronze,1,2025-01-30,true
+CUST-00251,Lodestar Yards,Worf,worf@lodestaryards.example,gold,6,2025-09-16,false
+CUST-00252,Sable Collective,Julian Bashir,julian@sablecollective.example,platinum,9,2024-02-18,true
+CUST-00253,Solstice Holdings,Pelia,pelia@solsticeholdings.example,bronze,3,2025-04-05,true
+CUST-00254,Meridian Freight,Jonathan Archer,jonathan@meridianfreight.example,platinum,4,2023-10-19,true
+CUST-00255,Meridian Collective,Odo,odo@meridiancollective.example,gold,5,2025-01-30,true
+CUST-00256,Sable Works,Beverly Crusher,beverly@sableworks.example,gold,1,2024-11-09,true
+CUST-00257,Umbra Freight,Miles O'Brien,miles@umbrafreight.example,platinum,8,2024-02-22,true
+CUST-00258,Perihelion Holdings,Una Chin-Riley,una@perihelionholdings.example,bronze,9,2024-11-16,true
+CUST-00259,Dovetail Works,Trip Tucker,trip@dovetailworks.example,bronze,3,2025-11-10,true
+CUST-00260,Quadrant Outfitters,Una Chin-Riley,una@quadrantoutfitters.example,silver,5,2024-02-24,true
+CUST-00261,Meridian Yards,Travis Mayweather,travis@meridianyards.example,platinum,8,2025-04-24,true
+CUST-00262,Kepler Collective,Philippa Georgiou,philippa@keplercollective.example,gold,1,2024-08-23,true
+CUST-00263,Helios Cooperative,La'an Noonien-Singh,laan@helioscooperative.example,bronze,3,2025-09-23,true
+CUST-00264,Tessera Provisioning,Hikaru Sulu,hikaru@tesseraprovisioning.example,silver,6,2024-03-06,true
+CUST-00265,Tessera Outfitters,Jean-Luc Picard,jeanluc@tesseraoutfitters.example,silver,6,2024-08-06,true
+CUST-00266,Perihelion Combine,Deanna Troi,deanna@perihelioncombine.example,bronze,6,2024-01-08,true
+CUST-00267,Umbra Consortium,Beverly Crusher,beverly@umbraconsortium.example,gold,9,2023-11-29,true
+CUST-00268,Cinder Supply,Neelix,neelix@cindersupply.example,platinum,8,2025-07-10,true
+CUST-00269,Anvil Cooperative,La'an Noonien-Singh,laan@anvilcooperative.example,bronze,2,2023-10-24,true
+CUST-00270,Tessera Yards,Janice Rand,janice@tesserayards.example,gold,6,2025-03-29,true
+CUST-00271,Tessera Consortium,Ezri Dax,ezri@tesseraconsortium.example,bronze,3,2025-07-09,true
+CUST-00272,Beacon Logistics,Michael Burnham,michael@beaconlogistics.example,gold,4,2024-10-09,true
+CUST-00273,Solstice Supply,Data,data@solsticesupply.example,bronze,9,2025-03-20,true
+CUST-00274,Cistern Provisioning,Cleveland Booker,cleveland@cisternprovisioning.example,bronze,8,2025-09-24,true
+CUST-00275,Anvil Outfitters,Elnor,elnor@anviloutfitters.example,gold,2,2025-09-21,true
+CUST-00276,Ember Cooperative,Wesley Crusher,wesley@embercooperative.example,platinum,9,2024-09-03,true
+CUST-00277,Tycho Consortium,Benjamin Sisko,benjamin@tychoconsortium.example,gold,1,2025-08-15,true
+CUST-00278,Tessera Consortium,Neelix,neelix@tesseraconsortium.example,bronze,4,2025-05-19,true
+CUST-00279,Perihelion Cooperative,Naomi Wildman,naomi@perihelioncooperative.example,bronze,9,2024-09-03,true
+CUST-00280,Ember Cooperative,Jadzia Dax,jadzia@embercooperative.example,gold,10,2023-09-21,true
+CUST-00281,Helios Holdings,Pavel Chekov,pavel@heliosholdings.example,gold,1,2024-04-04,true
+CUST-00282,Vertex Supply,Nyota Uhura,nyota@vertexsupply.example,platinum,10,2024-04-28,true
+CUST-00283,Beacon Combine,Philippa Georgiou,philippa@beaconcombine.example,gold,5,2024-10-23,true
+CUST-00284,Aurora Outfitters,Christopher Pike,christopher@auroraoutfitters.example,platinum,1,2024-10-12,true
+CUST-00285,Solstice Freight,T'Pol,tpol@solsticefreight.example,gold,10,2024-12-18,true
+CUST-00286,Cistern Consortium,Worf,worf@cisternconsortium.example,gold,6,2025-05-28,true
+CUST-00287,Anvil Combine,Tasha Yar,tasha@anvilcombine.example,bronze,5,2025-12-10,true
+CUST-00288,Fathom Provisioning,Tuvok,tuvok@fathomprovisioning.example,silver,7,2023-10-20,true
+CUST-00289,Sable Combine,Kira Nerys,kira@sablecombine.example,platinum,10,2024-08-21,true
+CUST-00290,Beacon Logistics,Data,data@beaconlogistics.example,platinum,5,2024-08-31,true
+CUST-00291,Cinder Supply,Travis Mayweather,travis@cindersupply.example,bronze,4,2025-12-10,true
+CUST-00292,Beacon Works,Gwyndala,gwyndala@beaconworks.example,bronze,10,2023-09-16,true
+CUST-00293,Perihelion Yards,Michael Burnham,michael@perihelionyards.example,platinum,3,2025-01-21,false
+CUST-00294,Ember Consortium,Odo,odo@emberconsortium.example,gold,1,2024-07-13,true
+CUST-00295,Cistern Outfitters,Zero,zero@cisternoutfitters.example,gold,7,2023-10-08,true
+CUST-00296,Tycho Cooperative,Geordi La Forge,geordi@tychocooperative.example,platinum,10,2025-01-13,true
+CUST-00297,Dovetail Freight,Tasha Yar,tasha@dovetailfreight.example,silver,6,2024-05-24,true
+CUST-00298,Meridian Logistics,Hikaru Sulu,hikaru@meridianlogistics.example,silver,9,2024-01-31,true
+CUST-00299,Cistern Outfitters,Benjamin Sisko,benjamin@cisternoutfitters.example,silver,8,2025-03-01,true
+CUST-00300,Aurora Provisioning,Naomi Wildman,naomi@auroraprovisioning.example,gold,6,2024-08-29,true
+CUST-00301,Beacon Yards,Naomi Wildman,naomi@beaconyards.example,platinum,9,2023-10-18,false
+CUST-00302,Tycho Provisioning,Jonathan Archer,jonathan@tychoprovisioning.example,bronze,6,2024-05-29,true
+CUST-00303,Ember Combine,Montgomery Scott,montgomery@embercombine.example,platinum,10,2025-08-09,true
+CUST-00304,Umbra Cooperative,Tuvok,tuvok@umbracooperative.example,bronze,10,2024-06-23,true
+CUST-00305,Cinder Logistics,La'an Noonien-Singh,laan@cinderlogistics.example,gold,2,2024-11-28,true
+CUST-00306,Vertex Consortium,Brad Boimler,brad@vertexconsortium.example,bronze,4,2024-02-08,true
+CUST-00307,Dovetail Freight,D'Vana Tendi,dvana@dovetailfreight.example,platinum,4,2025-03-15,true
+CUST-00308,Dovetail Freight,Jankom Pog,jankom@dovetailfreight.example,gold,8,2024-03-09,true
+CUST-00309,Fathom Outfitters,Odo,odo@fathomoutfitters.example,silver,5,2025-04-20,true
+CUST-00310,Quadrant Works,Elim Garak,elim@quadrantworks.example,platinum,4,2025-03-12,true
+CUST-00311,Perihelion Works,Beverly Crusher,beverly@perihelionworks.example,platinum,9,2024-12-22,true
+CUST-00312,Quadrant Logistics,Neelix,neelix@quadrantlogistics.example,bronze,3,2025-02-10,true
+CUST-00313,Beacon Combine,Quark,quark@beaconcombine.example,gold,5,2024-07-04,true
+CUST-00314,Tycho Supply,Chakotay,chakotay@tychosupply.example,silver,3,2025-12-10,true
+CUST-00315,Lodestar Collective,Kathryn Janeway,kathryn@lodestarcollective.example,bronze,9,2025-10-20,true
+CUST-00316,Tycho Collective,Guinan,guinan@tychocollective.example,bronze,8,2024-07-16,true
+CUST-00317,Vertex Collective,Brad Boimler,brad@vertexcollective.example,platinum,3,2024-04-04,true
+CUST-00318,Sable Works,Christine Chapel,christine@sableworks.example,bronze,5,2024-04-03,true
+CUST-00319,Meridian Cooperative,Christopher Pike,christopher@meridiancooperative.example,silver,9,2025-12-24,true
+CUST-00320,Beacon Cooperative,Kes,kes@beaconcooperative.example,bronze,7,2026-01-21,true
+CUST-00321,Tycho Freight,Neelix,neelix@tychofreight.example,platinum,10,2024-04-14,true
+CUST-00322,Solstice Consortium,Beckett Mariner,beckett@solsticeconsortium.example,gold,8,2025-07-17,true
+CUST-00323,Aurora Yards,Pelia,pelia@aurorayards.example,gold,6,2024-01-26,true
+CUST-00324,Quadrant Supply,Odo,odo@quadrantsupply.example,silver,6,2024-05-15,true
+CUST-00325,Vertex Consortium,Trip Tucker,trip@vertexconsortium.example,bronze,7,2024-12-16,true
+CUST-00326,Solstice Outfitters,Trip Tucker,trip@solsticeoutfitters.example,silver,3,2026-01-24,true
+CUST-00327,Anvil Works,Malcolm Reed,malcolm@anvilworks.example,gold,4,2024-06-13,true
+CUST-00328,Perihelion Collective,Michael Burnham,michael@perihelioncollective.example,silver,1,2025-11-28,true
+CUST-00329,Quadrant Cooperative,Philippa Georgiou,philippa@quadrantcooperative.example,gold,8,2024-02-24,true
+CUST-00330,Tessera Supply,Ezri Dax,ezri@tesserasupply.example,silver,5,2025-09-16,true
+CUST-00331,Fathom Freight,Christopher Pike,christopher@fathomfreight.example,platinum,8,2023-12-17,true
+CUST-00332,Lodestar Collective,William Riker,william@lodestarcollective.example,platinum,4,2024-08-08,true
+CUST-00333,Ember Holdings,Christine Chapel,christine@emberholdings.example,silver,2,2024-06-23,true
+CUST-00334,Sable Consortium,La'an Noonien-Singh,laan@sableconsortium.example,bronze,3,2024-03-05,true
+CUST-00335,Beacon Holdings,Agnes Jurati,agnes@beaconholdings.example,platinum,10,2023-10-25,false
+CUST-00336,Cistern Provisioning,Pelia,pelia@cisternprovisioning.example,bronze,3,2024-07-07,true
+CUST-00337,Helios Provisioning,B'Elanna Torres,belanna@heliosprovisioning.example,bronze,5,2023-12-29,true
+CUST-00338,Meridian Provisioning,Phlox,phlox@meridianprovisioning.example,bronze,2,2024-07-25,true
+CUST-00339,Beacon Logistics,Neelix,neelix@beaconlogistics.example,platinum,2,2025-07-30,true
+CUST-00340,Tessera Provisioning,Hemmer,hemmer@tesseraprovisioning.example,platinum,7,2025-01-11,true
+CUST-00341,Solstice Collective,Phlox,phlox@solsticecollective.example,bronze,9,2025-08-01,true
+CUST-00342,Cistern Cooperative,Ezri Dax,ezri@cisterncooperative.example,bronze,7,2023-12-18,false
+CUST-00343,Anvil Collective,Jankom Pog,jankom@anvilcollective.example,platinum,5,2024-08-04,true
+CUST-00344,Lodestar Outfitters,Phlox,phlox@lodestaroutfitters.example,silver,4,2025-04-23,true
+CUST-00345,Meridian Collective,Christopher Pike,christopher@meridiancollective.example,bronze,2,2025-05-29,true
+CUST-00346,Fathom Logistics,Hemmer,hemmer@fathomlogistics.example,bronze,2,2025-05-25,true
+CUST-00347,Anvil Combine,Jankom Pog,jankom@anvilcombine.example,silver,7,2023-12-20,true
+CUST-00348,Solstice Consortium,Kes,kes@solsticeconsortium.example,silver,1,2023-10-18,true
+CUST-00349,Sable Supply,Trip Tucker,trip@sablesupply.example,silver,10,2025-03-27,true
+CUST-00350,Lodestar Provisioning,Naomi Wildman,naomi@lodestarprovisioning.example,gold,9,2025-11-29,true
+CUST-00351,Aurora Collective,Una Chin-Riley,una@auroracollective.example,platinum,10,2025-12-13,true
+CUST-00352,Cistern Freight,Christopher Pike,christopher@cisternfreight.example,platinum,7,2025-08-31,true
+CUST-00353,Dovetail Outfitters,Chakotay,chakotay@dovetailoutfitters.example,silver,3,2025-03-29,true
+CUST-00354,Anvil Logistics,Murf,murf@anvillogistics.example,platinum,3,2024-11-30,true
+CUST-00355,Umbra Combine,B'Elanna Torres,belanna@umbracombine.example,silver,3,2025-02-26,true
+CUST-00356,Tessera Holdings,Gwyndala,gwyndala@tesseraholdings.example,silver,8,2025-12-09,true
+CUST-00357,Fathom Logistics,Jean-Luc Picard,jeanluc@fathomlogistics.example,silver,10,2023-10-30,true
+CUST-00358,Cinder Outfitters,Elim Garak,elim@cinderoutfitters.example,gold,9,2025-03-26,true
+CUST-00359,Cinder Combine,Beverly Crusher,beverly@cindercombine.example,platinum,1,2025-05-27,true
+CUST-00360,Umbra Combine,Zero,zero@umbracombine.example,gold,4,2023-11-28,true
+CUST-00361,Dovetail Collective,Travis Mayweather,travis@dovetailcollective.example,gold,8,2025-05-08,true
+CUST-00362,Anvil Holdings,Brad Boimler,brad@anvilholdings.example,gold,8,2025-07-06,true
+CUST-00363,Meridian Supply,Ezri Dax,ezri@meridiansupply.example,silver,7,2026-01-14,true
+CUST-00364,Ember Yards,Christopher Pike,christopher@emberyards.example,gold,10,2025-08-27,true
+CUST-00365,Umbra Supply,Tuvok,tuvok@umbrasupply.example,platinum,4,2024-07-16,true
+CUST-00366,Perihelion Outfitters,Sam Rutherford,sam@perihelionoutfitters.example,platinum,6,2025-08-11,true
+CUST-00367,Aurora Cooperative,Jankom Pog,jankom@auroracooperative.example,platinum,6,2025-07-26,true
+CUST-00368,Meridian Consortium,Hikaru Sulu,hikaru@meridianconsortium.example,bronze,9,2023-10-16,true
+CUST-00369,Vertex Cooperative,Kathryn Janeway,kathryn@vertexcooperative.example,bronze,1,2024-02-06,true
+CUST-00370,Cistern Outfitters,Saru,saru@cisternoutfitters.example,bronze,4,2024-05-08,true
+CUST-00371,Beacon Collective,Sam Rutherford,sam@beaconcollective.example,bronze,10,2026-01-24,true
+CUST-00372,Helios Logistics,Dal R'El,dal@helioslogistics.example,gold,7,2024-07-31,true
+CUST-00373,Cistern Yards,Erica Ortegas,erica@cisternyards.example,silver,1,2025-10-13,true
+CUST-00374,Solstice Combine,Odo,odo@solsticecombine.example,gold,9,2023-10-19,true
+CUST-00375,Kepler Freight,Philippa Georgiou,philippa@keplerfreight.example,platinum,7,2024-07-01,true
+CUST-00376,Quadrant Collective,William Riker,william@quadrantcollective.example,bronze,4,2025-10-27,true
+CUST-00377,Dovetail Outfitters,Christine Chapel,christine@dovetailoutfitters.example,bronze,7,2024-02-11,true
+CUST-00378,Vertex Collective,Malcolm Reed,malcolm@vertexcollective.example,bronze,8,2024-08-08,true
+CUST-00379,Cinder Yards,Brad Boimler,brad@cinderyards.example,gold,4,2025-12-14,true
+CUST-00380,Dovetail Supply,Hikaru Sulu,hikaru@dovetailsupply.example,silver,5,2025-03-14,false
+CUST-00381,Ember Cooperative,Hugh Culber,hugh@embercooperative.example,bronze,4,2025-03-30,true
+CUST-00382,Ember Provisioning,Jankom Pog,jankom@emberprovisioning.example,gold,4,2025-01-02,true
+CUST-00383,Kepler Consortium,Phlox,phlox@keplerconsortium.example,bronze,3,2025-10-22,true
+CUST-00384,Sable Supply,Hugh Culber,hugh@sablesupply.example,gold,2,2025-12-31,true
+CUST-00385,Beacon Combine,Travis Mayweather,travis@beaconcombine.example,platinum,8,2024-11-14,true
+CUST-00386,Umbra Holdings,Kes,kes@umbraholdings.example,silver,10,2024-01-31,true
+CUST-00387,Solstice Provisioning,Benjamin Sisko,benjamin@solsticeprovisioning.example,platinum,5,2025-03-12,true
+CUST-00388,Helios Works,La'an Noonien-Singh,laan@heliosworks.example,gold,2,2023-12-13,true
+CUST-00389,Kepler Cooperative,Erica Ortegas,erica@keplercooperative.example,platinum,3,2024-07-09,true
+CUST-00390,Tycho Logistics,Data,data@tychologistics.example,gold,7,2024-07-12,true
+CUST-00391,Sable Provisioning,Spock,spock@sableprovisioning.example,gold,10,2024-12-03,true
+CUST-00392,Dovetail Combine,Elnor,elnor@dovetailcombine.example,silver,2,2024-02-29,true
+CUST-00393,Perihelion Works,Harry Kim,harry@perihelionworks.example,platinum,3,2025-09-03,true
+CUST-00394,Perihelion Provisioning,Naomi Wildman,naomi@perihelionprovisioning.example,platinum,7,2023-11-21,true
+CUST-00395,Lodestar Yards,Raffi Musiker,raffi@lodestaryards.example,silver,5,2024-10-19,true
+CUST-00396,Helios Provisioning,Malcolm Reed,malcolm@heliosprovisioning.example,platinum,5,2023-10-30,true
+CUST-00397,Sable Provisioning,Guinan,guinan@sableprovisioning.example,gold,8,2025-03-08,true
+CUST-00398,Beacon Freight,Julian Bashir,julian@beaconfreight.example,platinum,4,2025-03-10,true
+CUST-00399,Ember Combine,Trip Tucker,trip@embercombine.example,platinum,8,2025-04-18,true
+CUST-00400,Tessera Holdings,Quark,quark@tesseraholdings.example,silver,7,2024-03-03,true

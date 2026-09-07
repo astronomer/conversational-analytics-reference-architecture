@@ -1,0 +1,22 @@
+route_id,route_name,origin_station_id,origin_hub_id,destination_station_id,destination_hub_id,distance_million_km,avg_transit_days,fuel_cost_credits,risk_level,is_active
+1,Earth-Luna Express,4,,13,,0.38,1,500,low,true
+2,Earth-Mars Standard,4,,5,,225.00,180,25000,low,true
+3,Earth-Mars Fast Track,4,,5,,225.00,90,75000,medium,true
+4,Luna-Mars Cargo,13,,5,,224.62,175,22000,low,true
+5,Mars Orbital-Surface,5,,4,,0.40,1,300,low,true
+6,Mars-Ceres Belt Run,5,,12,,265.00,120,18000,medium,true
+7,Ceres-Vesta Mining Loop,12,,22,,350.00,45,8000,medium,true
+8,Earth-Jupiter Long Haul,4,,7,,628.00,540,85000,medium,true
+9,Jupiter-Europa Shuttle,7,,14,,0.67,2,1500,low,true
+10,Jupiter-Ganymede Link,7,,15,,1.07,3,2000,low,true
+11,Saturn Ring Express,8,,17,,0.50,2,1800,low,true
+12,Titan-Enceladus Hop,17,,18,,0.98,4,2500,low,true
+13,Earth-Saturn Premium,4,,8,,1275.00,900,150000,high,true
+14,Mars-Jupiter Freight,5,,7,,550.00,420,65000,medium,true
+15,Neptune Frontier Run,8,,10,,4350.00,1800,280000,extreme,true
+16,Pluto Express,10,,11,,4700.00,2100,320000,extreme,true
+17,Inner Belt Circuit,22,,23,,180.00,30,5500,low,true
+18,Psyche Metal Express,24,,12,,290.00,50,9500,medium,true
+19,Uranus Supply Line,8,,9,,2870.00,1200,180000,high,true
+20,Triton Terminal Route,10,,20,,150.00,60,12000,high,true
+

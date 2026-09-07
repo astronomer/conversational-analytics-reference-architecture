@@ -1,0 +1,21 @@
+pilot_id,pilot_name,license_number,license_class,species,home_planet_id,hire_date,rating,total_missions,is_active
+1,Tom Paris,PIL-001-EARTH,deep_space,human,3,2015-03-15,4.95,1250,true
+2,Hikaru Sulu,PIL-002-EARTH,class_a,human,3,2016-06-22,4.78,980,true
+3,Alex Kamal,PIL-003-MARS,deep_space,human,4,2017-09-08,4.92,875,true
+4,Han Solo,PIL-004-EARTH,hazmat,human,3,2016-01-14,4.65,1100,true
+5,Hera Syndulla,PIL-005-EARTH,class_a,human,3,2018-04-30,4.82,720,true
+6,Ed Baldwin,PIL-006-MARS,deep_space,human,4,2019-11-17,4.88,650,true
+7,Danielle Poole,PIL-007-LUNA,class_b,human,3,2020-02-28,4.55,520,true
+8,Wedge Antilles,PIL-008-EARTH,hazmat,human,3,2019-07-09,4.71,680,true
+9,Samantha Carter,PIL-009-EARTH,class_a,human,3,2020-10-21,4.62,480,true
+10,Bobbie Draper,PIL-010-MARS,class_b,human,4,2021-05-03,4.48,390,true
+11,Poe Dameron,PIL-011-JUPITER,deep_space,human,5,2022-08-14,4.75,280,true
+12,Camina Drummer,PIL-012-SATURN,deep_space,human,6,2023-12-06,4.68,210,true
+13,John Sheppard,PIL-013-BELT,hazmat,human,10,2019-03-19,4.58,550,true
+14,Naomi Nagata,PIL-014-EARTH,class_c,human,3,2020-09-25,4.35,320,true
+15,Cameron Mitchell,PIL-015-MARS,class_a,human,4,2021-01-11,4.52,290,true
+16,Molly Cobb,PIL-016-TITAN,deep_space,human,6,2023-06-28,4.81,180,true
+17,Lando Calrissian,PIL-017-EARTH,class_b,human,3,2021-04-07,4.42,260,true
+18,Kathryn Janeway,PIL-018-EUROPA,class_a,human,5,2022-10-15,4.65,195,true
+19,James Holden,PIL-019-EARTH,hazmat,human,3,2022-07-22,4.38,240,true
+20,Gordo Stevens,PIL-020-MARS,deep_space,human,4,2023-11-30,4.72,225,true

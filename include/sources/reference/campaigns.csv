@@ -1,0 +1,11 @@
+campaign_id,campaign_name,campaign_type,channel,target_audience,budget_credits,spent_credits,start_date,end_date,status,target_planet_id
+1,New Year Solar Sale,display,web,all_customers,500000,485000,2026-01-01,2026-01-15,active,
+2,Mars Colony Expansion,email,email,mars_residents,250000,180000,2025-12-10,2026-02-28,active,4
+3,Jupiter Station Launch,holographic_billboard,metaverse,space_travelers,750000,320000,2025-11-15,2026-01-31,active,5
+4,Holiday Space Special,social,app,couples,150000,148000,2025-12-15,2025-12-31,completed,
+5,Belt Miner Appreciation,email,email,belt_workers,100000,95000,2025-11-01,2025-11-30,completed,10
+6,Galaxy Prime Membership Drive,influencer,web,new_customers,1000000,450000,2025-10-01,2026-03-31,active,
+7,Summer Solstice Earth,display,web,earth_residents,300000,298000,2025-06-01,2025-06-30,completed,3
+8,Titan Ice Festival,holographic_billboard,metaverse,titan_residents,200000,185000,2025-11-15,2025-12-15,completed,6
+9,Back to Station Sale,email,email,students,175000,172000,2025-08-15,2025-09-15,completed,
+10,Black Hole Friday,display,web,all_customers,2000000,1950000,2025-11-20,2025-11-30,completed,

@@ -1,0 +1,28 @@
+name: conversational_analytics
+version: 1.0.0
+config-version: 2
+
+profile: conversational_analytics
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+vars:
+  data_window_start: "2026-03-01"
+  data_window_end: "2026-08-31"
+
+models:
+  conversational_analytics:
+    silver:
+      +schema: silver
+      +materialized: view
+    gold:
+      +schema: gold
+      +materialized: table
+      # Descriptions become Postgres COMMENTs, which capture_warehouse_catalog reads.
+      +persist_docs:
+        relation: true
+        columns: true

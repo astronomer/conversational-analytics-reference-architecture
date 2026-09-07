@@ -1,0 +1,1277 @@
+[
+  {
+    "created": "2026-06-18T14:42:48+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "60874.45",
+        "charge_id": "ch_0000012",
+        "order_id": "ORD-100013",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0000012",
+        "refunded_at": "2026-06-18T14:42:48+00:00"
+      }
+    },
+    "id": "evt_re_0000012",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-06T11:29:09+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "141908.85",
+        "charge_id": "ch_0000013",
+        "order_id": "ORD-100014",
+        "reason": "late_delivery",
+        "refund_id": "re_0000013",
+        "refunded_at": "2026-07-06T11:29:09+00:00"
+      }
+    },
+    "id": "evt_re_0000013",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-08-13T08:42:35+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6039.45",
+        "charge_id": "ch_0000015",
+        "order_id": "ORD-100016",
+        "reason": "late_delivery",
+        "refund_id": "re_0000015",
+        "refunded_at": "2026-08-13T08:42:35+00:00"
+      }
+    },
+    "id": "evt_re_0000015",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-05-22T17:26:04+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "121689.76",
+        "charge_id": "ch_0000055",
+        "order_id": "ORD-100059",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0000055",
+        "refunded_at": "2026-05-22T17:26:04+00:00"
+      }
+    },
+    "id": "evt_re_0000055",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-05-16T04:26:07+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "21434.08",
+        "charge_id": "ch_0000119",
+        "order_id": "ORD-100132",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0000119",
+        "refunded_at": "2026-05-16T04:26:07+00:00"
+      }
+    },
+    "id": "evt_re_0000119",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-09T23:00:27+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "23846.49",
+        "charge_id": "ch_0000122",
+        "order_id": "ORD-100135",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0000122",
+        "refunded_at": "2026-04-09T23:00:27+00:00"
+      }
+    },
+    "id": "evt_re_0000122",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-23T20:52:12+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "58879.34",
+        "charge_id": "ch_0000126",
+        "order_id": "ORD-100139",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0000126",
+        "refunded_at": "2026-04-23T20:52:12+00:00"
+      }
+    },
+    "id": "evt_re_0000126",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-08-10T07:46:49+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4219.69",
+        "charge_id": "ch_0000157",
+        "order_id": "ORD-100173",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0000157",
+        "refunded_at": "2026-08-10T07:46:49+00:00"
+      }
+    },
+    "id": "evt_re_0000157",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-16T06:53:36+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "19815.54",
+        "charge_id": "ch_0000208",
+        "order_id": "ORD-100226",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0000208",
+        "refunded_at": "2026-07-16T06:53:36+00:00"
+      }
+    },
+    "id": "evt_re_0000208",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-15T03:01:34+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "980.14",
+        "charge_id": "ch_0000277",
+        "order_id": "ORD-100297",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0000277",
+        "refunded_at": "2026-07-15T03:01:34+00:00"
+      }
+    },
+    "id": "evt_re_0000277",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-26T22:47:02+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "612.86",
+        "charge_id": "ch_0000291",
+        "order_id": "ORD-100316",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0000291",
+        "refunded_at": "2026-07-26T22:47:02+00:00"
+      }
+    },
+    "id": "evt_re_0000291",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-06-26T11:22:15+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "44518.34",
+        "charge_id": "ch_0000292",
+        "order_id": "ORD-100317",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0000292",
+        "refunded_at": "2026-06-26T11:22:15+00:00"
+      }
+    },
+    "id": "evt_re_0000292",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-05-13T17:48:23+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "86852.92",
+        "charge_id": "ch_0000375",
+        "order_id": "ORD-100408",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0000375",
+        "refunded_at": "2026-05-13T17:48:23+00:00"
+      }
+    },
+    "id": "evt_re_0000375",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-08-05T22:32:06+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "8929.99",
+        "charge_id": "ch_0000390",
+        "order_id": "ORD-100423",
+        "reason": "late_delivery",
+        "refund_id": "re_0000390",
+        "refunded_at": "2026-08-05T22:32:06+00:00"
+      }
+    },
+    "id": "evt_re_0000390",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-03-21T10:24:10+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "22877.48",
+        "charge_id": "ch_0000461",
+        "order_id": "ORD-100500",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0000461",
+        "refunded_at": "2026-03-21T10:24:10+00:00"
+      }
+    },
+    "id": "evt_re_0000461",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-30T10:15:42+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "274.50",
+        "charge_id": "ch_0000493",
+        "order_id": "ORD-100534",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0000493",
+        "refunded_at": "2026-04-30T10:15:42+00:00"
+      }
+    },
+    "id": "evt_re_0000493",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-06T17:27:35+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "15747.58",
+        "charge_id": "ch_0000526",
+        "order_id": "ORD-100572",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0000526",
+        "refunded_at": "2026-04-06T17:27:35+00:00"
+      }
+    },
+    "id": "evt_re_0000526",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-05-25T05:07:54+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "171543.29",
+        "charge_id": "ch_0000563",
+        "order_id": "ORD-100613",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0000563",
+        "refunded_at": "2026-05-25T05:07:54+00:00"
+      }
+    },
+    "id": "evt_re_0000563",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-03-02T14:26:07+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "1263.52",
+        "charge_id": "ch_0000614",
+        "order_id": "ORD-100664",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0000614",
+        "refunded_at": "2026-03-02T14:26:07+00:00"
+      }
+    },
+    "id": "evt_re_0000614",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-14T09:19:16+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "47915.77",
+        "charge_id": "ch_0000622",
+        "order_id": "ORD-100672",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0000622",
+        "refunded_at": "2026-07-14T09:19:16+00:00"
+      }
+    },
+    "id": "evt_re_0000622",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-06-18T06:00:18+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "436158.65",
+        "charge_id": "ch_0000630",
+        "order_id": "ORD-100680",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0000630",
+        "refunded_at": "2026-06-18T06:00:18+00:00"
+      }
+    },
+    "id": "evt_re_0000630",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-05-29T08:04:01+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6288.83",
+        "charge_id": "ch_0000648",
+        "order_id": "ORD-100699",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0000648",
+        "refunded_at": "2026-05-29T08:04:01+00:00"
+      }
+    },
+    "id": "evt_re_0000648",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-03-12T08:32:27+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4216.43",
+        "charge_id": "ch_0000660",
+        "order_id": "ORD-100711",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0000660",
+        "refunded_at": "2026-03-12T08:32:27+00:00"
+      }
+    },
+    "id": "evt_re_0000660",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-03-09T15:17:01+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "20026.58",
+        "charge_id": "ch_0000766",
+        "order_id": "ORD-100822",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0000766",
+        "refunded_at": "2026-03-09T15:17:01+00:00"
+      }
+    },
+    "id": "evt_re_0000766",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-06-04T09:36:28+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "72315.06",
+        "charge_id": "ch_0000767",
+        "order_id": "ORD-100823",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0000767",
+        "refunded_at": "2026-06-04T09:36:28+00:00"
+      }
+    },
+    "id": "evt_re_0000767",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-04T12:39:17+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "11595.05",
+        "charge_id": "ch_0000777",
+        "order_id": "ORD-100833",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0000777",
+        "refunded_at": "2026-04-04T12:39:17+00:00"
+      }
+    },
+    "id": "evt_re_0000777",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-25T11:17:24+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "1132.45",
+        "charge_id": "ch_0000802",
+        "order_id": "ORD-100859",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0000802",
+        "refunded_at": "2026-07-25T11:17:24+00:00"
+      }
+    },
+    "id": "evt_re_0000802",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-08T22:59:26+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "312.77",
+        "charge_id": "ch_0000813",
+        "order_id": "ORD-100871",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0000813",
+        "refunded_at": "2026-04-08T22:59:26+00:00"
+      }
+    },
+    "id": "evt_re_0000813",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-22T16:23:19+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4532.17",
+        "charge_id": "ch_0000863",
+        "order_id": "ORD-100924",
+        "reason": "late_delivery",
+        "refund_id": "re_0000863",
+        "refunded_at": "2026-07-22T16:23:19+00:00"
+      }
+    },
+    "id": "evt_re_0000863",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-30T17:02:11+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "11395.51",
+        "charge_id": "ch_0000874",
+        "order_id": "ORD-100935",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0000874",
+        "refunded_at": "2026-04-30T17:02:11+00:00"
+      }
+    },
+    "id": "evt_re_0000874",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-06-30T06:29:00+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "26513.51",
+        "charge_id": "ch_0000907",
+        "order_id": "ORD-100969",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0000907",
+        "refunded_at": "2026-06-30T06:29:00+00:00"
+      }
+    },
+    "id": "evt_re_0000907",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-05-15T08:46:13+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "26732.18",
+        "charge_id": "ch_0000919",
+        "order_id": "ORD-100982",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0000919",
+        "refunded_at": "2026-05-15T08:46:13+00:00"
+      }
+    },
+    "id": "evt_re_0000919",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-03-06T02:51:39+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4091.69",
+        "charge_id": "ch_0000937",
+        "order_id": "ORD-101000",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0000937",
+        "refunded_at": "2026-03-06T02:51:39+00:00"
+      }
+    },
+    "id": "evt_re_0000937",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-06-13T09:07:50+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "36955.84",
+        "charge_id": "ch_0000954",
+        "order_id": "ORD-101017",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0000954",
+        "refunded_at": "2026-06-13T09:07:50+00:00"
+      }
+    },
+    "id": "evt_re_0000954",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-06-06T00:48:48+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "112808.03",
+        "charge_id": "ch_0000965",
+        "order_id": "ORD-101028",
+        "reason": "late_delivery",
+        "refund_id": "re_0000965",
+        "refunded_at": "2026-06-06T00:48:48+00:00"
+      }
+    },
+    "id": "evt_re_0000965",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-06-29T04:43:08+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "4197.87",
+        "charge_id": "ch_0000986",
+        "order_id": "ORD-101049",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0000986",
+        "refunded_at": "2026-06-29T04:43:08+00:00"
+      }
+    },
+    "id": "evt_re_0000986",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-08-22T18:07:27+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "101153.48",
+        "charge_id": "ch_0001067",
+        "order_id": "ORD-101141",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0001067",
+        "refunded_at": "2026-08-22T18:07:27+00:00"
+      }
+    },
+    "id": "evt_re_0001067",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-06-11T10:09:28+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "181250.98",
+        "charge_id": "ch_0001102",
+        "order_id": "ORD-101178",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0001102",
+        "refunded_at": "2026-06-11T10:09:28+00:00"
+      }
+    },
+    "id": "evt_re_0001102",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-08-12T04:49:29+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "29137.77",
+        "charge_id": "ch_0001114",
+        "order_id": "ORD-101192",
+        "reason": "late_delivery",
+        "refund_id": "re_0001114",
+        "refunded_at": "2026-08-12T04:49:29+00:00"
+      }
+    },
+    "id": "evt_re_0001114",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-03-31T16:38:10+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "32258.41",
+        "charge_id": "ch_0001134",
+        "order_id": "ORD-101216",
+        "reason": "late_delivery",
+        "refund_id": "re_0001134",
+        "refunded_at": "2026-03-31T16:38:10+00:00"
+      }
+    },
+    "id": "evt_re_0001134",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-08-09T00:54:05+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "601.03",
+        "charge_id": "ch_0001136",
+        "order_id": "ORD-101218",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0001136",
+        "refunded_at": "2026-08-09T00:54:05+00:00"
+      }
+    },
+    "id": "evt_re_0001136",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-03-15T03:42:52+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "49025.60",
+        "charge_id": "ch_0001172",
+        "order_id": "ORD-101255",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0001172",
+        "refunded_at": "2026-03-15T03:42:52+00:00"
+      }
+    },
+    "id": "evt_re_0001172",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-06-08T10:21:51+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "84166.40",
+        "charge_id": "ch_0001235",
+        "order_id": "ORD-101323",
+        "reason": "late_delivery",
+        "refund_id": "re_0001235",
+        "refunded_at": "2026-06-08T10:21:51+00:00"
+      }
+    },
+    "id": "evt_re_0001235",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-08-20T03:07:53+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "47529.92",
+        "charge_id": "ch_0001302",
+        "order_id": "ORD-101396",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0001302",
+        "refunded_at": "2026-08-20T03:07:53+00:00"
+      }
+    },
+    "id": "evt_re_0001302",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-17T15:28:48+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2460.03",
+        "charge_id": "ch_0001314",
+        "order_id": "ORD-101408",
+        "reason": "late_delivery",
+        "refund_id": "re_0001314",
+        "refunded_at": "2026-04-17T15:28:48+00:00"
+      }
+    },
+    "id": "evt_re_0001314",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-05-19T11:37:18+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5651.16",
+        "charge_id": "ch_0001397",
+        "order_id": "ORD-101492",
+        "reason": "late_delivery",
+        "refund_id": "re_0001397",
+        "refunded_at": "2026-05-19T11:37:18+00:00"
+      }
+    },
+    "id": "evt_re_0001397",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-05-18T07:50:21+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "9850.49",
+        "charge_id": "ch_0001420",
+        "order_id": "ORD-101515",
+        "reason": "late_delivery",
+        "refund_id": "re_0001420",
+        "refunded_at": "2026-05-18T07:50:21+00:00"
+      }
+    },
+    "id": "evt_re_0001420",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-15T10:28:03+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "225481.33",
+        "charge_id": "ch_0001444",
+        "order_id": "ORD-101540",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0001444",
+        "refunded_at": "2026-04-15T10:28:03+00:00"
+      }
+    },
+    "id": "evt_re_0001444",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-08-07T11:26:02+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6262.16",
+        "charge_id": "ch_0001473",
+        "order_id": "ORD-101569",
+        "reason": "late_delivery",
+        "refund_id": "re_0001473",
+        "refunded_at": "2026-08-07T11:26:02+00:00"
+      }
+    },
+    "id": "evt_re_0001473",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-08-27T12:54:31+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6289.92",
+        "charge_id": "ch_0001477",
+        "order_id": "ORD-101573",
+        "reason": "late_delivery",
+        "refund_id": "re_0001477",
+        "refunded_at": "2026-08-27T12:54:31+00:00"
+      }
+    },
+    "id": "evt_re_0001477",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-16T05:05:09+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "315112.03",
+        "charge_id": "ch_0001526",
+        "order_id": "ORD-101624",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0001526",
+        "refunded_at": "2026-07-16T05:05:09+00:00"
+      }
+    },
+    "id": "evt_re_0001526",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-03-09T14:03:36+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "195055.85",
+        "charge_id": "ch_0001545",
+        "order_id": "ORD-101643",
+        "reason": "late_delivery",
+        "refund_id": "re_0001545",
+        "refunded_at": "2026-03-09T14:03:36+00:00"
+      }
+    },
+    "id": "evt_re_0001545",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-23T14:54:31+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "15812.69",
+        "charge_id": "ch_0001594",
+        "order_id": "ORD-101693",
+        "reason": "late_delivery",
+        "refund_id": "re_0001594",
+        "refunded_at": "2026-04-23T14:54:31+00:00"
+      }
+    },
+    "id": "evt_re_0001594",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-05-03T21:32:44+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "122742.45",
+        "charge_id": "ch_0001658",
+        "order_id": "ORD-101761",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0001658",
+        "refunded_at": "2026-05-03T21:32:44+00:00"
+      }
+    },
+    "id": "evt_re_0001658",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-14T03:53:30+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "135975.65",
+        "charge_id": "ch_0001660",
+        "order_id": "ORD-101763",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0001660",
+        "refunded_at": "2026-07-14T03:53:30+00:00"
+      }
+    },
+    "id": "evt_re_0001660",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-01T05:34:59+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "79959.41",
+        "charge_id": "ch_0001711",
+        "order_id": "ORD-101815",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0001711",
+        "refunded_at": "2026-07-01T05:34:59+00:00"
+      }
+    },
+    "id": "evt_re_0001711",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-30T18:20:55+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "11989.61",
+        "charge_id": "ch_0001727",
+        "order_id": "ORD-101832",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0001727",
+        "refunded_at": "2026-04-30T18:20:55+00:00"
+      }
+    },
+    "id": "evt_re_0001727",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-22T01:41:33+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "1517.36",
+        "charge_id": "ch_0001733",
+        "order_id": "ORD-101839",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0001733",
+        "refunded_at": "2026-04-22T01:41:33+00:00"
+      }
+    },
+    "id": "evt_re_0001733",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-05-12T02:41:55+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7056.49",
+        "charge_id": "ch_0001736",
+        "order_id": "ORD-101842",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0001736",
+        "refunded_at": "2026-05-12T02:41:55+00:00"
+      }
+    },
+    "id": "evt_re_0001736",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-16T13:31:14+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "143161.82",
+        "charge_id": "ch_0001738",
+        "order_id": "ORD-101844",
+        "reason": "late_delivery",
+        "refund_id": "re_0001738",
+        "refunded_at": "2026-07-16T13:31:14+00:00"
+      }
+    },
+    "id": "evt_re_0001738",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-28T13:25:59+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "31495.69",
+        "charge_id": "ch_0001756",
+        "order_id": "ORD-101863",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0001756",
+        "refunded_at": "2026-07-28T13:25:59+00:00"
+      }
+    },
+    "id": "evt_re_0001756",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-16T23:33:08+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "38982.78",
+        "charge_id": "ch_0001769",
+        "order_id": "ORD-101877",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0001769",
+        "refunded_at": "2026-07-16T23:33:08+00:00"
+      }
+    },
+    "id": "evt_re_0001769",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-19T16:12:00+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "3391.76",
+        "charge_id": "ch_0001788",
+        "order_id": "ORD-101896",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0001788",
+        "refunded_at": "2026-07-19T16:12:00+00:00"
+      }
+    },
+    "id": "evt_re_0001788",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-03-27T11:41:39+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "175.17",
+        "charge_id": "ch_0001831",
+        "order_id": "ORD-101941",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0001831",
+        "refunded_at": "2026-03-27T11:41:39+00:00"
+      }
+    },
+    "id": "evt_re_0001831",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-13T00:32:09+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "12736.21",
+        "charge_id": "ch_0001879",
+        "order_id": "ORD-101993",
+        "reason": "late_delivery",
+        "refund_id": "re_0001879",
+        "refunded_at": "2026-04-13T00:32:09+00:00"
+      }
+    },
+    "id": "evt_re_0001879",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-06-08T08:42:38+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "1872.32",
+        "charge_id": "ch_0001923",
+        "order_id": "ORD-102041",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0001923",
+        "refunded_at": "2026-06-08T08:42:38+00:00"
+      }
+    },
+    "id": "evt_re_0001923",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-30T03:30:12+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "196677.10",
+        "charge_id": "ch_0001925",
+        "order_id": "ORD-102043",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0001925",
+        "refunded_at": "2026-07-30T03:30:12+00:00"
+      }
+    },
+    "id": "evt_re_0001925",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-08-04T20:41:23+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "179767.92",
+        "charge_id": "ch_0001947",
+        "order_id": "ORD-102068",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0001947",
+        "refunded_at": "2026-08-04T20:41:23+00:00"
+      }
+    },
+    "id": "evt_re_0001947",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-16T21:36:01+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "2434.62",
+        "charge_id": "ch_0001962",
+        "order_id": "ORD-102083",
+        "reason": "late_delivery",
+        "refund_id": "re_0001962",
+        "refunded_at": "2026-04-16T21:36:01+00:00"
+      }
+    },
+    "id": "evt_re_0001962",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-03-09T03:01:19+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "24191.49",
+        "charge_id": "ch_0001963",
+        "order_id": "ORD-102084",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0001963",
+        "refunded_at": "2026-03-09T03:01:19+00:00"
+      }
+    },
+    "id": "evt_re_0001963",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-08-27T08:39:09+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "127015.05",
+        "charge_id": "ch_0001985",
+        "order_id": "ORD-102106",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0001985",
+        "refunded_at": "2026-08-27T08:39:09+00:00"
+      }
+    },
+    "id": "evt_re_0001985",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-08-15T01:07:22+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "7267.36",
+        "charge_id": "ch_0002031",
+        "order_id": "ORD-102155",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0002031",
+        "refunded_at": "2026-08-15T01:07:22+00:00"
+      }
+    },
+    "id": "evt_re_0002031",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-08-10T08:23:13+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "6772.01",
+        "charge_id": "ch_0002057",
+        "order_id": "ORD-102183",
+        "reason": "late_delivery",
+        "refund_id": "re_0002057",
+        "refunded_at": "2026-08-10T08:23:13+00:00"
+      }
+    },
+    "id": "evt_re_0002057",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-31T23:53:00+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "19777.84",
+        "charge_id": "ch_0002058",
+        "order_id": "ORD-102184",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0002058",
+        "refunded_at": "2026-07-31T23:53:00+00:00"
+      }
+    },
+    "id": "evt_re_0002058",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-06-16T14:50:08+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "19865.87",
+        "charge_id": "ch_0002062",
+        "order_id": "ORD-102188",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0002062",
+        "refunded_at": "2026-06-16T14:50:08+00:00"
+      }
+    },
+    "id": "evt_re_0002062",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-05-01T06:01:00+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "21826.14",
+        "charge_id": "ch_0002065",
+        "order_id": "ORD-102191",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0002065",
+        "refunded_at": "2026-05-01T06:01:00+00:00"
+      }
+    },
+    "id": "evt_re_0002065",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-08T08:17:00+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "33259.48",
+        "charge_id": "ch_0002110",
+        "order_id": "ORD-102238",
+        "reason": "late_delivery",
+        "refund_id": "re_0002110",
+        "refunded_at": "2026-04-08T08:17:00+00:00"
+      }
+    },
+    "id": "evt_re_0002110",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-05-23T13:46:04+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "40567.54",
+        "charge_id": "ch_0002127",
+        "order_id": "ORD-102259",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0002127",
+        "refunded_at": "2026-05-23T13:46:04+00:00"
+      }
+    },
+    "id": "evt_re_0002127",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-08-02T12:10:58+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "11164.17",
+        "charge_id": "ch_0002144",
+        "order_id": "ORD-102278",
+        "reason": "late_delivery",
+        "refund_id": "re_0002144",
+        "refunded_at": "2026-08-02T12:10:58+00:00"
+      }
+    },
+    "id": "evt_re_0002144",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-06-27T14:31:04+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "3859.76",
+        "charge_id": "ch_0002145",
+        "order_id": "ORD-102279",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0002145",
+        "refunded_at": "2026-06-27T14:31:04+00:00"
+      }
+    },
+    "id": "evt_re_0002145",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-06-08T15:00:10+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "580.32",
+        "charge_id": "ch_0002151",
+        "order_id": "ORD-102285",
+        "reason": "duplicate_charge",
+        "refund_id": "re_0002151",
+        "refunded_at": "2026-06-08T15:00:10+00:00"
+      }
+    },
+    "id": "evt_re_0002151",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-07-01T09:50:44+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "5402.74",
+        "charge_id": "ch_0002178",
+        "order_id": "ORD-102312",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0002178",
+        "refunded_at": "2026-07-01T09:50:44+00:00"
+      }
+    },
+    "id": "evt_re_0002178",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-06-15T17:08:13+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "11578.46",
+        "charge_id": "ch_0002285",
+        "order_id": "ORD-102427",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0002285",
+        "refunded_at": "2026-06-15T17:08:13+00:00"
+      }
+    },
+    "id": "evt_re_0002285",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-04-03T17:08:28+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "64.55",
+        "charge_id": "ch_0002297",
+        "order_id": "ORD-102440",
+        "reason": "cancelled_balance",
+        "refund_id": "re_0002297",
+        "refunded_at": "2026-04-03T17:08:28+00:00"
+      }
+    },
+    "id": "evt_re_0002297",
+    "type": "charge.refunded"
+  },
+  {
+    "created": "2026-06-18T12:49:01+00:00",
+    "data": {
+      "object": {
+        "amount_credits": "143362.16",
+        "charge_id": "ch_0002335",
+        "order_id": "ORD-102485",
+        "reason": "damaged_on_arrival",
+        "refund_id": "re_0002335",
+        "refunded_at": "2026-06-18T12:49:01+00:00"
+      }
+    },
+    "id": "evt_re_0002335",
+    "type": "charge.refunded"
+  }
+]

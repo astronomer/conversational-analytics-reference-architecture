@@ -1,0 +1,21 @@
+spacecraft_id,spacecraft_name,registration_number,spacecraft_type,manufacturer,capacity_tonnes,max_speed_kmps,fuel_type,home_station_id,current_status,commissioned_date
+1,Rocinante,GC-001-EAR,heavy_transport,SpaceX Interplanetary,5000,50,fusion,4,available,2017-03-12
+2,Millennium Falcon,GC-002-EAR,freighter,Boeing Deep Space,2500,45,fusion,4,in_transit,2018-06-23
+3,Razorback,GC-003-EAR,courier,Virgin Galactic,200,80,ion,4,available,2019-01-15
+4,Donnager,GC-004-MAR,heavy_transport,Mars Industrial Corp,4500,48,fusion,5,available,2019-09-08
+5,Daedalus,GC-005-MAR,freighter,Mars Industrial Corp,2200,42,fusion,5,in_transit,2020-04-19
+6,Ghost,GC-006-EAR,courier,SpaceX Interplanetary,150,95,ion,4,available,2020-11-30
+7,Defiant,GC-007-SAT,heavy_transport,Saturn Ring Industries,6000,35,fusion,8,available,2022-07-14
+8,Destiny,GC-008-JUP,freighter,Jovian Shipyards,1800,40,ion,7,available,2022-02-28
+9,Canterbury,GC-009-BLT,freighter,Belt Mining Collective,3000,30,fusion,12,available,2018-08-22
+10,Nauvoo,GC-010-BLT,freighter,Belt Mining Collective,2800,28,fusion,22,in_transit,2019-05-17
+11,Razor Crest,GC-011-EAR,courier,Virgin Galactic,100,120,ion,4,available,2021-10-05
+12,Enterprise,GC-012-EAR,heavy_transport,Boeing Deep Space,7500,40,fusion,4,maintenance,2023-03-21
+13,Odyssey,GC-013-NEP,freighter,Outer Reach Corp,2000,55,fusion,10,available,2024-06-12
+14,Voyager,GC-014-PLU,courier,Outer Reach Corp,500,60,fusion,11,available,2024-09-28
+15,Pathfinder,GC-015-LUN,cargo_shuttle,Lunar Transport Inc,800,25,chemical,13,available,2016-04-08
+16,Tantive IV,GC-016-MAR,courier,Mars Industrial Corp,180,85,ion,5,available,2020-12-15
+17,Prometheus,GC-017-SAT,cargo_shuttle,Saturn Ring Industries,1200,20,chemical,8,available,2023-07-03
+18,Pella,GC-018-BLT,cargo_shuttle,Belt Mining Collective,600,35,ion,12,in_transit,2020-11-19
+19,Discovery,GC-019-NEP,freighter,Outer Reach Corp,3500,32,fusion,10,available,2025-02-14
+20,Excelsior,GC-020-JUP,cargo_shuttle,Jovian Shipyards,900,28,ion,15,available,2022-08-27
