@@ -43,11 +43,11 @@ Connections to the `warehouse` and `otel-collector` containers are defined in `.
 Run the Dags in the following order:
 
 | # | Dag | Dags that run automatically |
-|---|---|
-| 0 | Unpause all Dags in the UI or using `astro dev run dags unpause --treat-dag-id-as-regex -y ".*"` |
+|---|---|---|
+| 0 | Unpause all Dags in the UI or using `astro dev run dags unpause --treat-dag-id-as-regex -y ".*"` | - |
 | 1 | `initialize_warehouse` | - |
-| 2 | `load_reference_data`, `ingest_application_database`, `ingest_salesforce_crm`, `ingest_zendesk_support`, `ingest_stripe_payments` | `transform_warehouse` |
-| 3 | `capture_warehouse_catalog`, `embed_support_tickets`, `capture_pipeline_metadata` |
+| 2 | `ingest_all` | `load_reference_data`, `ingest_application_database`, `ingest_salesforce_crm`, `ingest_zendesk_support`, `ingest_stripe_payments`, then `transform_warehouse` |
+| 3 | `context_all` | `capture_warehouse_catalog`, `embed_support_tickets`, `capture_pipeline_metadata` |
 | 4 | `answer_analytics_question` | `ingest_agent_traces` |
 
 ## The Dags
@@ -104,9 +104,6 @@ over ticket text, and pipeline health returning relevant Dag run history from th
 
 ### `dags/evals`
 
-![The AI evals plugin, showing an answer scored across four dimensions](/source/analytics_evals_plugin.png)
-
-
 | Dag | What it does |
 |---|---|
 | `ingest_agent_traces` | Reads the GenAI spans the run emitted and writes them to `agent.trace_spans`. asset-triggered to run after every agent Dag run |
@@ -117,6 +114,8 @@ Note that in order for Airflow to emit traces you need to set the following env 
 AIRFLOW__COMMON_AI__OTEL_EXPORT_ENABLED=True
 AIRFLOW__COMMON_AI__CAPTURE_CONTENT=True
 ```
+
+![The AI evals plugin, showing an answer scored across four dimensions](/source/analytics_evals_plugin.png)
 
 ## Schema
 
